@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://shanya.world/"/>
-  <updated>2020-04-12T11:08:20.002Z</updated>
+  <updated>2020-04-12T11:09:36.302Z</updated>
   <id>https://shanya.world/</id>
   
   <author>
@@ -15,6 +15,31 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>test</title>
+    <link href="https://shanya.world/archives/d87f7e0c.html"/>
+    <id>https://shanya.world/archives/d87f7e0c.html</id>
+    <published>2020-04-12T11:09:31.000Z</published>
+    <updated>2020-04-12T11:09:36.302Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;特性&quot;&gt;&lt;a href=&quot;#特性&quot; class=&quot;headerlink&quot; title=&quot;特性&quot;&gt;&lt;/a&gt;特性&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;简单漂亮，文章内容美观易读&lt;/li&gt;
+&lt;li&gt;&lt;a href=&quot;https://material.io/&quot;
+        
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
   
   <entry>
     <title>hexo matery 个性化设置</title>
