@@ -482,14 +482,14 @@
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    4.9k
+                    4.7k
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-clock fa-fw"></i>阅读时长:&nbsp;&nbsp;
-                    19 分
+                    18 分
                 </div>
                 
 
@@ -958,46 +958,6 @@
 <span class="token key atrule">pretty_urls</span><span class="token punctuation">:</span>
   <span class="token key atrule">trailing_index</span><span class="token punctuation">:</span> <span class="token boolean important">true </span><span class="token comment" spellcheck="true"># Set to false to remove trailing 'index.html' from permalinks</span>
   <span class="token key atrule">trailing_html</span><span class="token punctuation">:</span> <span class="token boolean important">true </span><span class="token comment" spellcheck="true"># Set to false to remove trailing '.html' from permalinks</span></code></pre>
-<h3 id="公益404"><a href="#公益404" class="headerlink" title="公益404"></a>公益404</h3><p>该主题没有内置404页面，自己加一个</p>
-<p>在主题配置文件<code>\themes\matery\_config.yml</code>中添加一个</p>
-<p><img src="https://raw.githubusercontent.com/Shanyaliux/PicBed/master/images_for_blogs/20200412181111.png" alt="20200412181111"></p>
-<p>然后新建404页面</p>
-<pre class=" language-bash"><code class="language-bash">hexo new page <span class="token string">"404"</span></code></pre>
-<p>修改<code>\source\404\index.md</code>文件内容</p>
-<pre><code>---
-title: 404 Not Found：该页无法显示
-toc: false
-comments: false
-date: 2020-04-10 11:09:44
-layout: "404"
----</code></pre><p>在<code>\themes\matery\layout</code>目录下新建文件<code>404.ejs</code>，填入以下内容</p>
-<pre class=" language-javascript"><code class="language-javascript"><span class="token operator">&lt;</span>style type<span class="token operator">=</span><span class="token string">"text/css"</span><span class="token operator">></span>
-    <span class="token comment" spellcheck="true">/* don't remove. */</span>
-    <span class="token punctuation">.</span>about<span class="token operator">-</span>cover <span class="token punctuation">{</span>
-        height<span class="token punctuation">:</span> 75vh<span class="token punctuation">;</span>
-    <span class="token punctuation">}</span>
-<span class="token operator">&lt;</span><span class="token operator">/</span>style<span class="token operator">></span>
-
-<span class="token operator">&lt;</span>div <span class="token keyword">class</span><span class="token operator">=</span><span class="token string">"bg-cover pd-header about-cover"</span><span class="token operator">></span>
-    <span class="token operator">&lt;</span>div <span class="token keyword">class</span><span class="token operator">=</span><span class="token string">"container"</span><span class="token operator">></span>
-        <span class="token operator">&lt;</span>div <span class="token keyword">class</span><span class="token operator">=</span><span class="token string">"row"</span><span class="token operator">></span>
-            <span class="token operator">&lt;</span>div <span class="token keyword">class</span><span class="token operator">=</span><span class="token string">"col s10 offset-s1 m8 offset-m2 l8 offset-l2"</span><span class="token operator">></span>
-                <span class="token operator">&lt;</span>div <span class="token keyword">class</span><span class="token operator">=</span><span class="token string">"brand"</span><span class="token operator">></span>
-                    <span class="token operator">&lt;</span>div <span class="token keyword">class</span><span class="token operator">=</span><span class="token string">"title center-align"</span><span class="token operator">></span>
-                        <span class="token number">404</span>
-                    <span class="token operator">&lt;</span><span class="token operator">/</span>div<span class="token operator">></span>
-                    <span class="token operator">&lt;</span>div <span class="token keyword">class</span><span class="token operator">=</span><span class="token string">"description center-align"</span><span class="token operator">></span>
-                        <span class="token operator">&lt;</span><span class="token operator">%</span><span class="token operator">=</span> page<span class="token punctuation">.</span>description <span class="token operator">%</span><span class="token operator">></span>
-                    <span class="token operator">&lt;</span><span class="token operator">/</span>div<span class="token operator">></span>
-                <span class="token operator">&lt;</span><span class="token operator">/</span>div<span class="token operator">></span>
-            <span class="token operator">&lt;</span><span class="token operator">/</span>div<span class="token operator">></span>
-        <span class="token operator">&lt;</span><span class="token operator">/</span>div<span class="token operator">></span>
-    <span class="token operator">&lt;</span><span class="token operator">/</span>div<span class="token operator">></span>
-<span class="token operator">&lt;</span><span class="token operator">/</span>div<span class="token operator">></span>
-
-<span class="token operator">&lt;</span>script type<span class="token operator">=</span><span class="token string">"text/javascript"</span> src<span class="token operator">=</span><span class="token string">"//qzonestyle.gtimg.cn/qzone/hybrid/app/404/search_children.js"</span> 
-    charset<span class="token operator">=</span><span class="token string">"utf-8"</span> homePageUrl<span class="token operator">=</span><span class="token string">"https://www.shanya.world/"</span> homePageName<span class="token operator">=</span><span class="token string">"回到我的主页"</span><span class="token operator">></span><span class="token operator">&lt;</span><span class="token operator">/</span>script<span class="token operator">></span>
-</code></pre>
 <p><strong><em>文章参考来源</em></strong></p>
 <ul>
 <li><a href="https://yafine-blog.cn/posts/4ab2.html#toc-heading-79" target="_blank" rel="noopener">Hexo+github搭建博客(超级详细版，精细入微)</a></li>
@@ -1827,7 +1787,7 @@ code[class*="language-"], pre[class*="language-"] { white-space: pre !important;
             |&nbsp;Theme&nbsp;<a href="https://github.com/blinkfox/hexo-theme-matery" target="_blank">Matery</a>-->
             
                 &nbsp;<i class="fas fa-chart-area"></i>&nbsp;站点总字数:&nbsp;<span
-                    class="white-color">20.4k</span>&nbsp;字
+                    class="white-color">20.2k</span>&nbsp;字
             
             <br>
         
