@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://shanya.world/"/>
-  <updated>2020-04-11T16:22:36.452Z</updated>
+  <updated>2020-04-12T10:18:55.582Z</updated>
   <id>https://shanya.world/</id>
   
   <author>
@@ -15,6 +15,36 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>hexo博客-matery主题个性化设置</title>
+    <link href="https://shanya.world/archives/77774d20.html"/>
+    <id>https://shanya.world/archives/77774d20.html</id>
+    <published>2020-04-12T09:54:18.000Z</published>
+    <updated>2020-04-12T10:18:55.582Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;主题安装与基础设置&quot;&gt;&lt;a href=&quot;#主题安装与基础设置&quot; class=&quot;headerlink&quot; title=&quot;主题安装与基础设置&quot;&gt;&lt;/a&gt;主题安装与基础设置&lt;/h1&gt;&lt;blockquote&gt;
+&lt;p&gt;&lt;strong&gt;转自：&lt;/strong&gt;&lt;a
+        
+      
+    
+    </summary>
+    
+    
+      <category term="hexo" scheme="https://shanya.world/categories/hexo/"/>
+    
+    
+      <category term="hexo" scheme="https://shanya.world/tags/hexo/"/>
+    
+      <category term="matery" scheme="https://shanya.world/tags/matery/"/>
+    
+  </entry>
   
   <entry>
     <title>hexo 个人博客搭建记录</title>
