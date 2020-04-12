@@ -948,16 +948,16 @@
 <h3 id="文章生成永久链接"><a href="#文章生成永久链接" class="headerlink" title="文章生成永久链接"></a>文章生成永久链接</h3><p>安装插件</p>
 <pre class=" language-bash"><code class="language-bash"><span class="token function">npm</span> <span class="token function">install</span> hexo-abbrlink --save</code></pre>
 <p>然后再站点配置文件下进行如下配置修改：</p>
-<pre class=" language-yml"><code class="language-yml">url: https://shanya.world/
-root: /
-permalink: archives/:abbrlink.html
-abbrlink:
-  alg: crc32  # 算法：crc16(default) and crc32
-  rep: hex    # 进制：dec(default) and hex
-permalink_defaults:
-pretty_urls:
-  trailing_index: true # Set to false to remove trailing 'index.html' from permalinks
-  trailing_html: true # Set to false to remove trailing '.html' from permalinks</code></pre>
+<pre class=" language-yaml"><code class="language-yaml"><span class="token key atrule">url</span><span class="token punctuation">:</span> https<span class="token punctuation">:</span>//shanya.world/
+<span class="token key atrule">root</span><span class="token punctuation">:</span> /
+<span class="token key atrule">permalink</span><span class="token punctuation">:</span> archives/<span class="token punctuation">:</span>abbrlink.html
+<span class="token key atrule">abbrlink</span><span class="token punctuation">:</span>
+  <span class="token key atrule">alg</span><span class="token punctuation">:</span> crc32  <span class="token comment" spellcheck="true"># 算法：crc16(default) and crc32</span>
+  <span class="token key atrule">rep</span><span class="token punctuation">:</span> hex    <span class="token comment" spellcheck="true"># 进制：dec(default) and hex</span>
+<span class="token key atrule">permalink_defaults</span><span class="token punctuation">:</span>
+<span class="token key atrule">pretty_urls</span><span class="token punctuation">:</span>
+  <span class="token key atrule">trailing_index</span><span class="token punctuation">:</span> <span class="token boolean important">true </span><span class="token comment" spellcheck="true"># Set to false to remove trailing 'index.html' from permalinks</span>
+  <span class="token key atrule">trailing_html</span><span class="token punctuation">:</span> <span class="token boolean important">true </span><span class="token comment" spellcheck="true"># Set to false to remove trailing '.html' from permalinks</span></code></pre>
 <h3 id="公益404"><a href="#公益404" class="headerlink" title="公益404"></a>公益404</h3><p>该主题没有内置404页面，自己加一个</p>
 <p>在主题配置文件<code>\themes\matery\_config.yml</code>中添加一个</p>
 <p><img src="https://raw.githubusercontent.com/Shanyaliux/PicBed/master/images_for_blogs/20200412181111.png" alt="20200412181111"></p>
@@ -1519,54 +1519,39 @@ layout: "404"
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
+        <div class="article col s12 m6" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="far fa-dot-circle"></i>&nbsp;本篇
-            </div>
+                <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
             <div class="card">
-                <a href="/archives/74d8a677.html">
+                <a href="/archives/d87f7e0c.html">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/4.jpg" class="responsive-img" alt="hexo 博客 matery主题个性化设置">
+                        <img src="/medias/featureimages/10.jpg" class="responsive-img" alt="test">
                         
-                        <span class="card-title">hexo 博客 matery主题个性化设置</span>
+                        <span class="card-title">test</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            记录matery的个性化设置
+                            
+        document.querySelectorAll('.github-emoji')
+          .forEach(el => {
+            if (!el.dataset.src) { return
                         
                     </div>
                     <div class="publish-info">
-                            <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2020-04-12
-                            </span>
+                        <span class="publish-date">
+                            <i class="far fa-clock fa-fw icon-date"></i>2020-04-12
+                        </span>
                         <span class="publish-author">
                             
-                            <i class="fas fa-bookmark fa-fw icon-category"></i>
-                            
-                            <a href="/categories/hexo/" class="post-category">
-                                    hexo
-                                </a>
-                            
+                            <i class="fas fa-user fa-fw"></i>
+                            Shanya
                             
                         </span>
                     </div>
-                </div>
-
-                
-                <div class="card-action article-tags">
-                    
-                    <a href="/tags/hexo/">
-                        <span class="chip bg-color">hexo</span>
-                    </a>
-                    
-                    <a href="/tags/matery/">
-                        <span class="chip bg-color">matery</span>
-                    </a>
-                    
                 </div>
                 
             </div>

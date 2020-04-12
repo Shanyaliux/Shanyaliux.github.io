@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://shanya.world/"/>
-  <updated>2020-04-12T10:31:44.318Z</updated>
+  <updated>2020-04-12T10:41:27.392Z</updated>
   <id>https://shanya.world/</id>
   
   <author>
@@ -17,11 +17,38 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>test</title>
+    <link href="https://shanya.world/archives/d87f7e0c.html"/>
+    <id>https://shanya.world/archives/d87f7e0c.html</id>
+    <published>2020-04-12T10:41:27.000Z</published>
+    <updated>2020-04-12T10:41:27.392Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;script&gt;
+        document.querySelectorAll(&#39;.github-emoji&#39;)
+          .forEach(el =&gt; {
+            if (!el.dataset.src) { return; }
+       
+        
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
     <title>hexo 博客 matery主题个性化设置</title>
     <link href="https://shanya.world/archives/74d8a677.html"/>
     <id>https://shanya.world/archives/74d8a677.html</id>
     <published>2020-04-12T10:29:27.000Z</published>
-    <updated>2020-04-12T10:31:44.318Z</updated>
+    <updated>2020-04-12T10:33:45.643Z</updated>
     
     <summary type="html">
     
