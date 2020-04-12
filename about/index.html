@@ -570,7 +570,7 @@
                 type: 'pie',
                 radius: '50%',
                 color: ['#6772e5', '#ff9e0f', '#fa755a', '#3ecf8e', '#82d3f4', '#ab47bc', '#525f7f', '#f51c47', '#26A69A'],
-                data: [{"name":"Android","value":11},{"name":"Andorid","value":1},{"name":"Java","value":3},{"name":"Kotlin","value":7},{"name":"Java","value":1},{"name":"hexo","value":1},{"name":"Manjaro","value":1}],
+                data: [{"name":"Android","value":11},{"name":"Andorid","value":1},{"name":"Kotlin","value":7},{"name":"Java","value":3},{"name":"Java","value":1},{"name":"hexo","value":1},{"name":"Manjaro","value":1}],
                 itemStyle: {
                     emphasis: {
                         shadowBlur: 10,
@@ -594,7 +594,7 @@
         xAxis: [
             {
                 type: 'category',
-                data: ["Android","Kotlin","Java","ViewModel","AlarmManager","Handler","Timer","Room","DataBinding","Navigation"]
+                data: ["Android","Kotlin","Java","ViewModel","AlarmManager","Handler","Timer","DataBinding","Navigation","Room"]
             }
         ],
         yAxis: [
@@ -775,12 +775,6 @@
             
             
             
-            <a href="/tags/Room/">
-                <span class="chip center-align waves-effect waves-light chip-default">Room</span>
-            </a>
-            
-            
-            
             <a href="/tags/ViewModel/">
                 <span class="chip center-align waves-effect waves-light chip-default">ViewModel</span>
             </a>
@@ -795,6 +789,12 @@
             
             <a href="/tags/Navigation/">
                 <span class="chip center-align waves-effect waves-light chip-default">Navigation</span>
+            </a>
+            
+            
+            
+            <a href="/tags/Room/">
+                <span class="chip center-align waves-effect waves-light chip-default">Room</span>
             </a>
             
             
@@ -941,6 +941,54 @@
 
 
     <footer class="page-footer bg-color">
+    
+        <link rel="stylesheet" href="/libs/aplayer/APlayer.min.css">
+<style>
+    .aplayer .aplayer-lrc p {
+        font-size: 12px;
+        font-weight: 700;
+        line-height: 16px !important;
+    }
+
+    .aplayer .aplayer-lrc p.aplayer-lrc-current {
+        font-size: 15px;
+        color: #42b983;
+    }
+
+    
+    .aplayer.aplayer-fixed.aplayer-narrow .aplayer-body {
+        left: -66px !important;
+    }
+
+    .aplayer.aplayer-fixed.aplayer-narrow .aplayer-body:hover {
+        left: 0px !important;
+    }
+
+    
+</style>
+<div class="">
+    
+    <div class="row">
+        <meting-js class="col l8 offset-l2 m10 offset-m1 s12"
+                   server="netease"
+                   type="playlist"
+                   id="503838841"
+                   fixed='true'
+                   autoplay='false'
+                   theme='#42b983'
+                   loop='all'
+                   order='random'
+                   preload='auto'
+                   volume='0.7'
+                   list-folded='true'
+        >
+        </meting-js>
+    </div>
+</div>
+
+<script src="/libs/aplayer/APlayer.min.js"></script>
+<script src="https://cdn.jsdelivr.net/npm/meting@2/dist/Meting.min.js"></script>
+
     
     <div class="container row center-align" style="margin-bottom: 15px !important;">
         <div class="col s12 m8 l8 copy-right">
