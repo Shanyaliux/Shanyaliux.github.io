@@ -1,0 +1,399 @@
+<?xml version="1.0" encoding="utf-8"?>
+<feed xmlns="http://www.w3.org/2005/Atom">
+  <title>Shanya的个人博客</title>
+  
+  <subtitle>哀莫大于心死，愁莫大于无志。</subtitle>
+  <link href="/atom.xml" rel="self"/>
+  
+  <link href="https://shanya.world/"/>
+  <updated>2020-04-11T16:22:36.452Z</updated>
+  <id>https://shanya.world/</id>
+  
+  <author>
+    <name>Shanya</name>
+    
+  </author>
+  
+  <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>hexo 个人博客搭建记录</title>
+    <link href="https://shanya.world/archives/d7928bcd.html"/>
+    <id>https://shanya.world/archives/d7928bcd.html</id>
+    <published>2020-04-11T08:50:14.000Z</published>
+    <updated>2020-04-11T16:22:36.452Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;搭建hexo个人博客的一个记录&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="hexo" scheme="https://shanya.world/categories/hexo/"/>
+    
+    
+      <category term="hexo" scheme="https://shanya.world/tags/hexo/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Android动态权限申请</title>
+    <link href="https://shanya.world/archives/3231ae8c.html"/>
+    <id>https://shanya.world/archives/3231ae8c.html</id>
+    <published>2020-04-07T08:51:49.000Z</published>
+    <updated>2020-04-09T09:15:27.757Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;首先还是先去 &lt;code&gt;AndroidManifest.xml&lt;/code&gt;文件中写上需要的权限，这里以存储权限为例。&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="Android" scheme="https://shanya.world/categories/Android/"/>
+    
+      <category term="Kotlin" scheme="https://shanya.world/categories/Android/Kotlin/"/>
+    
+    
+      <category term="Android" scheme="https://shanya.world/tags/Android/"/>
+    
+      <category term="Kotlin" scheme="https://shanya.world/tags/Kotlin/"/>
+    
+      <category term="permission" scheme="https://shanya.world/tags/permission/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Android 图片占位符 ShimmerLayout 以及 加载图片 Glide 的实现</title>
+    <link href="https://shanya.world/archives/42e833b9.html"/>
+    <id>https://shanya.world/archives/42e833b9.html</id>
+    <published>2020-04-07T08:51:38.000Z</published>
+    <updated>2020-04-09T09:13:33.422Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;==记得添加网络权限否则图片无法加载成功==&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="Android" scheme="https://shanya.world/categories/Android/"/>
+    
+      <category term="Kotlin" scheme="https://shanya.world/categories/Android/Kotlin/"/>
+    
+    
+      <category term="Android" scheme="https://shanya.world/tags/Android/"/>
+    
+      <category term="Kotlin" scheme="https://shanya.world/tags/Kotlin/"/>
+    
+      <category term="ShimmerLayout" scheme="https://shanya.world/tags/ShimmerLayout/"/>
+    
+      <category term="Glide" scheme="https://shanya.world/tags/Glide/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Android 下拉刷新 SwipeRefreshLayout 的实现</title>
+    <link href="https://shanya.world/archives/614f32fd.html"/>
+    <id>https://shanya.world/archives/614f32fd.html</id>
+    <published>2020-04-07T08:51:25.000Z</published>
+    <updated>2020-04-09T09:13:42.037Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Android 下拉刷新实现&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="Android" scheme="https://shanya.world/categories/Android/"/>
+    
+      <category term="Kotlin" scheme="https://shanya.world/categories/Android/Kotlin/"/>
+    
+    
+      <category term="Android" scheme="https://shanya.world/tags/Android/"/>
+    
+      <category term="Kotlin" scheme="https://shanya.world/tags/Kotlin/"/>
+    
+      <category term="SwipeRefreshLayout" scheme="https://shanya.world/tags/SwipeRefreshLayout/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Android使用Volley获取json数据</title>
+    <link href="https://shanya.world/archives/5428a106.html"/>
+    <id>https://shanya.world/archives/5428a106.html</id>
+    <published>2020-04-07T08:51:12.000Z</published>
+    <updated>2020-04-09T09:15:40.273Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;首先例子用的json文件是我和该Demo例子一起上传至GitHub的一个json文件：地址如下&lt;br&gt;&lt;a href=&quot;https://raw.githubusercontent.com/Shanyaliux/VolleyDemo/master/app/jsonfile/volleydemo.json&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://raw.githubusercontent.com/Shanyaliux/VolleyDemo/master/app/jsonfile/volleydemo.json&lt;/a&gt;&lt;br&gt;其内容我瞎编的&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="Android" scheme="https://shanya.world/categories/Android/"/>
+    
+      <category term="Kotlin" scheme="https://shanya.world/categories/Android/Kotlin/"/>
+    
+    
+      <category term="Android" scheme="https://shanya.world/tags/Android/"/>
+    
+      <category term="Kotlin" scheme="https://shanya.world/tags/Kotlin/"/>
+    
+      <category term="Json" scheme="https://shanya.world/tags/Json/"/>
+    
+      <category term="Volley" scheme="https://shanya.world/tags/Volley/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>安装Manjaro之后要做的一些事</title>
+    <link href="https://shanya.world/archives/ec10250d.html"/>
+    <id>https://shanya.world/archives/ec10250d.html</id>
+    <published>2020-04-07T08:50:53.000Z</published>
+    <updated>2020-04-07T08:56:30.690Z</updated>
+    
+    <summary type="html">
+    
+      &lt;pre&gt;&lt;code&gt;为什么是Manjaro？
+对我来说只有一点，就是 ***aur*** 。
+本文记录的是我安装完Manjaro之后做的一些事。&lt;/code&gt;&lt;/pre&gt;
+    
+    </summary>
+    
+    
+      <category term="Manjaro" scheme="https://shanya.world/categories/Manjaro/"/>
+    
+    
+      <category term="Manjaro" scheme="https://shanya.world/tags/Manjaro/"/>
+    
+  </entry>
+  
+  <entry>
+    <title> Android侧边栏Kotlin实现</title>
+    <link href="https://shanya.world/archives/39c4da83.html"/>
+    <id>https://shanya.world/archives/39c4da83.html</id>
+    <published>2020-04-07T08:50:30.000Z</published>
+    <updated>2020-04-07T08:55:35.578Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;本例是基于AndroidStudio以Kotlin语言开发，实现Android应用中常见的侧边划出栏。&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="Android" scheme="https://shanya.world/categories/Android/"/>
+    
+      <category term="Kotlin" scheme="https://shanya.world/categories/Android/Kotlin/"/>
+    
+    
+      <category term="Android" scheme="https://shanya.world/tags/Android/"/>
+    
+      <category term="Kotlin" scheme="https://shanya.world/tags/Kotlin/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Android Room By Kotlin</title>
+    <link href="https://shanya.world/archives/e6cb5eee.html"/>
+    <id>https://shanya.world/archives/e6cb5eee.html</id>
+    <published>2020-04-07T08:50:14.000Z</published>
+    <updated>2020-04-09T09:14:51.346Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;本Demo是演示Room在Kotlin语法下使用的一个简单的应用程序。&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="Android" scheme="https://shanya.world/categories/Android/"/>
+    
+      <category term="Kotlin" scheme="https://shanya.world/categories/Android/Kotlin/"/>
+    
+    
+      <category term="Android" scheme="https://shanya.world/tags/Android/"/>
+    
+      <category term="Kotlin" scheme="https://shanya.world/tags/Kotlin/"/>
+    
+      <category term="Room" scheme="https://shanya.world/tags/Room/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Android Kotlin Handler&amp;Timer（附Demo 源码）</title>
+    <link href="https://shanya.world/archives/36ec9a1c.html"/>
+    <id>https://shanya.world/archives/36ec9a1c.html</id>
+    <published>2020-04-07T08:49:59.000Z</published>
+    <updated>2020-04-09T09:14:11.367Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Android 使用 Kotlin 开发，利用　Handler &amp;amp; Timer 实现定时任务&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="Android" scheme="https://shanya.world/categories/Android/"/>
+    
+      <category term="Kotlin" scheme="https://shanya.world/categories/Android/Kotlin/"/>
+    
+    
+      <category term="Android" scheme="https://shanya.world/tags/Android/"/>
+    
+      <category term="Kotlin" scheme="https://shanya.world/tags/Kotlin/"/>
+    
+      <category term="Handler" scheme="https://shanya.world/tags/Handler/"/>
+    
+      <category term="Timer" scheme="https://shanya.world/tags/Timer/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Android AlarmManager实现定时任务（也就是闹钟）  附Demo源码</title>
+    <link href="https://shanya.world/archives/a7b639d4.html"/>
+    <id>https://shanya.world/archives/a7b639d4.html</id>
+    <published>2020-04-07T08:48:20.000Z</published>
+    <updated>2020-04-09T09:13:56.949Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Android中的定时任务一般有两种实现方式，一种是使用 Java API 里提供的 Timer 类，一种是使用 Android 的 Alarm 机制。这两种方式在多数情况下都能实现类似的效果，但 Timer 有一个明显的短板，它并不适用于那些需要长期在后台运行的定时任务。我们都知道，为了能让电池更加耐用，每种手机都会有自己的休眠策略，Android 手机就会在长时间不操作的情况下自动让 CPU 进入到睡眠状态，这就有可能导致 Timer 中的定时任务无法正常运行。而 Alarm 则具有唤醒 CPU 的功能，它可以在需要执行定时任务的时候大吼一声：“小UU，不要跟我 bbll ，赶紧给我起来干活，不然你看我扎不扎你就完了。”&lt;br&gt;需要注意，这里唤醒 CPU 和唤醒屏幕完全不是一个概念，千万不要混淆。&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="Android" scheme="https://shanya.world/categories/Android/"/>
+    
+      <category term="Java" scheme="https://shanya.world/categories/Android/Java/"/>
+    
+    
+      <category term="Android" scheme="https://shanya.world/tags/Android/"/>
+    
+      <category term="Java" scheme="https://shanya.world/tags/Java/"/>
+    
+      <category term="AlarmManager" scheme="https://shanya.world/tags/AlarmManager/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>解决Android Studio构建项目卡在Gradle Build Runing</title>
+    <link href="https://shanya.world/archives/c33339bc.html"/>
+    <id>https://shanya.world/archives/c33339bc.html</id>
+    <published>2020-04-07T08:47:17.000Z</published>
+    <updated>2020-04-09T09:12:49.707Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;在 C:\Users\用户名.gradle 这个目录下创建文件 init.gradle 并填入以下内容&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="Android" scheme="https://shanya.world/categories/Android/"/>
+    
+    
+      <category term="Android" scheme="https://shanya.world/tags/Android/"/>
+    
+      <category term="Android Studio" scheme="https://shanya.world/tags/Android-Studio/"/>
+    
+      <category term="Gradle" scheme="https://shanya.world/tags/Gradle/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Android Navigation 页面间的数据传递通过ViewModel、DataBinding实现（附一个页面过度动画的实现）</title>
+    <link href="https://shanya.world/archives/2991b6da.html"/>
+    <id>https://shanya.world/archives/2991b6da.html</id>
+    <published>2020-04-07T08:45:36.000Z</published>
+    <updated>2020-04-09T09:14:43.848Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;Navigation可以帮助我们搭建一个多个页面，相对比较复杂的应用程序，可以让我们的页面切换变得更加容易实现。同事使用DataBinding进行数据绑定让我们的数据与界面分离。关于DataBinding的使用见我的另一篇帖子，链接在这里&lt;a href=&quot;https://blog.csdn.net/qq_41121080/article/details/103205337&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://blog.csdn.net/qq_41121080/article/details/103205337&lt;/a&gt;&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="Andorid" scheme="https://shanya.world/categories/Andorid/"/>
+    
+      <category term="Java" scheme="https://shanya.world/categories/Andorid/Java/"/>
+    
+    
+      <category term="Android" scheme="https://shanya.world/tags/Android/"/>
+    
+      <category term="Java" scheme="https://shanya.world/tags/Java/"/>
+    
+      <category term="ViewModel" scheme="https://shanya.world/tags/ViewModel/"/>
+    
+      <category term="DataBinding" scheme="https://shanya.world/tags/DataBinding/"/>
+    
+      <category term="Navigation" scheme="https://shanya.world/tags/Navigation/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Android 开发 ViewModel、LiveData、DataBinding 的一个联合使用</title>
+    <link href="https://shanya.world/archives/266bf90b.html"/>
+    <id>https://shanya.world/archives/266bf90b.html</id>
+    <published>2020-04-07T08:43:06.000Z</published>
+    <updated>2020-04-09T09:13:17.026Z</updated>
+    
+    <summary type="html">
+    
+      &lt;h6 id=&quot;ViewModel可以将数据模块进行单独的管理，可以使我的控制器更加的简单，只需要专注于控制界面的逻辑和用户的操作。另外当我们的Activity被Destroy或者重新Create时数据不会丢失。（例如切换系统语言、屏幕旋转）其配合LiveData可以对数据的改变进行监听。然后通过DataBingding将数据与控件进行绑定，减少像按键响应等代码的数量。&quot;&gt;&lt;a href=&quot;#ViewModel可以将数据模块进行单独的管理，可以使我的控制器更加的简单，只需要专注于控制界面的逻辑和用户的操作。另外当我们的Activity被Destroy或者重新Create时数据不会丢失。（例如切换系统语言、屏幕旋转）其配合LiveData可以对数据的改变进行监听。然后通过DataBingding将数据与控件进行绑定，减少像按键响应等代码的数量。&quot; class=&quot;headerlink&quot; title=&quot;ViewModel可以将数据模块进行单独的管理，可以使我的控制器更加的简单，只需要专注于控制界面的逻辑和用户的操作。另外当我们的Activity被Destroy或者重新Create时数据不会丢失。（例如切换系统语言、屏幕旋转）其配合LiveData可以对数据的改变进行监听。然后通过DataBingding将数据与控件进行绑定，减少像按键响应等代码的数量。&quot;&gt;&lt;/a&gt;ViewModel可以将数据模块进行单独的管理，可以使我的控制器更加的简单，只需要专注于控制界面的逻辑和用户的操作。另外当我们的Activity被Destroy或者重新Create时数据不会丢失。（例如切换系统语言、屏幕旋转）其配合LiveData可以对数据的改变进行监听。然后通过DataBingding将数据与控件进行绑定，减少像按键响应等代码的数量。&lt;/h6&gt;&lt;p&gt;这里我将一个篮球赛计分的例子来记录ViewModel、LivaData、DataBinding的用法&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="Android" scheme="https://shanya.world/categories/Android/"/>
+    
+      <category term="Java" scheme="https://shanya.world/categories/Android/Java/"/>
+    
+    
+      <category term="Android" scheme="https://shanya.world/tags/Android/"/>
+    
+      <category term="Java" scheme="https://shanya.world/tags/Java/"/>
+    
+      <category term="ViewModel" scheme="https://shanya.world/tags/ViewModel/"/>
+    
+      <category term="LiveData" scheme="https://shanya.world/tags/LiveData/"/>
+    
+      <category term="DataBingding" scheme="https://shanya.world/tags/DataBingding/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>Android Studio 的蓝牙串口通信（附Demo源码下载）</title>
+    <link href="https://shanya.world/archives/3a0ead9f.html"/>
+    <id>https://shanya.world/archives/3a0ead9f.html</id>
+    <published>2020-04-07T08:35:59.000Z</published>
+    <updated>2020-04-09T09:15:09.777Z</updated>
+    
+    <summary type="html">
+    
+      &lt;p&gt;这次做项目用到了蓝牙串口，折腾了两天总算弄出来了，记录一下方便以后回顾。&lt;/p&gt;
+    
+    </summary>
+    
+    
+      <category term="Android" scheme="https://shanya.world/categories/Android/"/>
+    
+      <category term="Java" scheme="https://shanya.world/categories/Android/Java/"/>
+    
+    
+      <category term="Android" scheme="https://shanya.world/tags/Android/"/>
+    
+      <category term="Java" scheme="https://shanya.world/tags/Java/"/>
+    
+      <category term="Blueteeth" scheme="https://shanya.world/tags/Blueteeth/"/>
+    
+      <category term="SerialPort" scheme="https://shanya.world/tags/SerialPort/"/>
+    
+  </entry>
+  
+</feed>
