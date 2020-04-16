@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="安装Manjaro之后要做的一些事, Android,Java,Kotlin,C++,C等">
+    <meta name="keywords" content="VSCode + Picgo + jsDelivr 搭建稳定快速高效图床, Android,Java,Kotlin,C++,C等">
     <meta name="description" content="分享生活,分享知识">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -16,7 +16,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>安装Manjaro之后要做的一些事 | Shanya的博客</title>
+    <title>VSCode + Picgo + jsDelivr 搭建稳定快速高效图床 | Shanya的博客</title>
     <link rel="icon" type="image/x-icon, image/vnd.microsoft.icon" href="/favicon.ico">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
@@ -353,12 +353,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/10.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/19.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">安装Manjaro之后要做的一些事</h1>
+                    <h1 class="description center-align post-title">VSCode + Picgo + jsDelivr 搭建稳定快速高效图床</h1>
                 </div>
             </div>
         </div>
@@ -483,8 +483,20 @@
                     
                     <div class="article-tag">
                         
-                            <a href="/tags/Manjaro/">
-                                <span class="chip bg-color">Manjaro</span>
+                            <a href="/tags/hexo/">
+                                <span class="chip bg-color">hexo</span>
+                            </a>
+                        
+                            <a href="/tags/VSCode/">
+                                <span class="chip bg-color">VSCode</span>
+                            </a>
+                        
+                            <a href="/tags/jsDelivr/">
+                                <span class="chip bg-color">jsDelivr</span>
+                            </a>
+                        
+                            <a href="/tags/%E5%9B%BE%E5%BA%8A/">
+                                <span class="chip bg-color">图床</span>
                             </a>
                         
                     </div>
@@ -495,8 +507,8 @@
                     <div class="post-cate">
                         <i class="fas fa-bookmark fa-fw icon-category"></i>
                         
-                            <a href="/categories/Manjaro/" class="post-category">
-                                Manjaro
+                            <a href="/categories/hexo/" class="post-category">
+                                hexo
                             </a>
                         
                     </div>
@@ -508,21 +520,21 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2020-04-07
+                    2020-04-16
                 </div>
                 
 
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-check fa-fw"></i>更新日期:&nbsp;&nbsp;
-                    2020-04-12
+                    2020-04-16
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    375
+                    329
                 </div>
                 
 
@@ -544,40 +556,35 @@
         <hr class="clearfix">
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <pre><code>为什么是Manjaro？
-对我来说只有一点，就是 ***aur*** 。
-本文记录的是我安装完Manjaro之后做的一些事。</code></pre><a id="more"></a>
-
-<pre><code>ps： Manjaro根据不同的桌面环境有三个版本，我的是gnome版本</code></pre><h3 id="更换源"><a href="#更换源" class="headerlink" title="更换源"></a>更换源</h3><p>终端输入一下两个命令</p>
-<pre class=" language-Shell"><code class="language-Shell">sudo pacman-mirrors -i -c China -m rank
-sudo pacman -Syy</code></pre>
-<p>这会显示几个速度快的源，选最快的那个。<br>当然也可以自己添加源到配置文件。<br>在<code>/etc/pacman.conf</code>的最后一行添加：</p>
-<pre class=" language-Shell"><code class="language-Shell">[archlinuxcn]
-SigLevel = Optional TrustedOnly
-Server = https://mirrors.ustc.edu.cn/archlinuxcn/$arch</code></pre>
-<p>然后终端运行命令：</p>
-<pre class=" language-Shell"><code class="language-Shell">sudo pacman -Syy
-sudo pacman -S archlinuxcn-keyring</code></pre>
-<h3 id="常用软件"><a href="#常用软件" class="headerlink" title="常用软件"></a>常用软件</h3><h4 id="yay"><a href="#yay" class="headerlink" title="yay"></a>yay</h4><p>它可以代替pacman安装软件</p>
-<pre class=" language-Shell"><code class="language-Shell">sudo pacman -S yay base-devel</code></pre>
-<h4 id="搜狗输入法"><a href="#搜狗输入法" class="headerlink" title="搜狗输入法"></a>搜狗输入法</h4><p>按照我的操作可以实现大多数地方的中文输入，有些软件不能输入：网易云（ps：主要这个我不是那么的在乎）</p>
-<pre class=" language-Shell"><code class="language-Shell">sudo pacman -S fcitx-im #全部安装
-sudo pacman -S fcitx-configtool
-sudo pacman -S fcitx-sogoupinyin
-sudo pacman -Rsn fcitx-im fcitx-configtool
-sudo pacman -S fcitx-lilydjwg-git fcitx-sogoupinyin
-sudo pacman -S fcitx-configtool fcitx-qt5
-sudo pacman -S fcitx5</code></pre>
-<p>在<code>~/.xprofile</code>添加用户环境</p>
-<pre class=" language-Shell"><code class="language-Shell">export GTK_IM_MODULE=fcitx
-export QT_IM_MODULE=fcitx
-export XMODIFIERS="@im=fcitx"</code></pre>
-<h4 id="谷歌浏览器"><a href="#谷歌浏览器" class="headerlink" title="谷歌浏览器"></a>谷歌浏览器</h4><pre class=" language-Shell"><code class="language-Shell">sudo pacman -S google-chrome</code></pre>
-<h4 id="git"><a href="#git" class="headerlink" title="git"></a>git</h4><pre class=" language-Shell"><code class="language-Shell">sudo pacman -S git</code></pre>
-<h4 id="vscode"><a href="#vscode" class="headerlink" title="vscode"></a>vscode</h4><pre class=" language-Shell"><code class="language-Shell">sudo pacman -S visual-studio-code-bin</code></pre>
-<h4 id="网易云音乐"><a href="#网易云音乐" class="headerlink" title="网易云音乐"></a>网易云音乐</h4><pre class=" language-Shell"><code class="language-Shell">yay -S netease-cloud-music</code></pre>
-<h4 id="wps"><a href="#wps" class="headerlink" title="wps"></a>wps</h4><pre class=" language-Shell"><code class="language-Shell">yay -S wps-office
-yay -S ttf-wps-fonts</code></pre>
+                <p>图床是个什么玩意就不多说了，我比较喜欢的是利用<code>Picgo</code>插件的<code>Github</code>图床，但是其服务器不在国内，访问起来比较的慢，甚至无法访问。（期待早日取消半墙状态）  </p>
+<p>所以需要利用到 <code>jsDelivr CDN</code> 加速 (<code>jsDelivr</code> 是一个免费开源的 <code>CDN</code> 解决方案)，<code>Picgo</code> 插件一键上传，<code>GIthub</code> 和 <code>jsDelivr</code> 又是知名大厂，不怕他删库跑路。最主要的是可以白嫖，嘿嘿 :)</p>
+<p>我平时喜欢在 <code>VScode</code> 里面进行<code>Markdown</code> 的撰写，所以利用的是 <code>VSCode</code> 里面的 <code>PicGo</code> 插件，当然<code>PicGo</code> 也是有自己的客户端的，两种方式配置方式基本一样，使用起来也差不多。</p>
+<h2 id="新建Github仓库"><a href="#新建Github仓库" class="headerlink" title="新建Github仓库"></a>新建Github仓库</h2><p><img src="https://cdn.jsdelivr.net/gh/Shanyaliux/PicBed/images_for_blogs/20200416191825.png" alt="20200416191825"></p>
+<h2 id="生成一个Token"><a href="#生成一个Token" class="headerlink" title="生成一个Token"></a>生成一个Token</h2><p>按下图以此点击</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Shanyaliux/PicBed/images_for_blogs/20200416191927.png" alt="20200416191927"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Shanyaliux/PicBed/images_for_blogs/20200416192045.png" alt="20200416192045"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Shanyaliux/PicBed/images_for_blogs/20200416192100.png" alt="20200416192100"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Shanyaliux/PicBed/images_for_blogs/20200416192116.png" alt="20200416192116"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Shanyaliux/PicBed/images_for_blogs/20200416192228.png" alt="20200416192228"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Shanyaliux/PicBed/images_for_blogs/20200416192300.png" alt="20200416192300"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Shanyaliux/PicBed/images_for_blogs/20200416192402.png" alt="20200416192402"></p>
+<h2 id="安装VSCode"><a href="#安装VSCode" class="headerlink" title="安装VSCode"></a>安装VSCode</h2><p><img src="https://cdn.jsdelivr.net/gh/Shanyaliux/PicBed/images_for_blogs/20200416192834.png" alt="20200416192834"></p>
+<ul>
+<li>打开软件，安装相关插件</li>
+</ul>
+<p><img src="https://cdn.jsdelivr.net/gh/Shanyaliux/PicBed/images_for_blogs/20200416192910.png" alt="20200416192910"></p>
+<ul>
+<li>下图这几个是我安装的，自行搜索安装</li>
+</ul>
+<p><img src="https://cdn.jsdelivr.net/gh/Shanyaliux/PicBed/images_for_blogs/20200416192949.png" alt="20200416192949"></p>
+<h2 id="配置PicGo"><a href="#配置PicGo" class="headerlink" title="配置PicGo"></a>配置<code>PicGo</code></h2><p><img src="https://cdn.jsdelivr.net/gh/Shanyaliux/PicBed/images_for_blogs/20200416193023.png" alt="20200416193023"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Shanyaliux/PicBed/images_for_blogs/20200416193048.png" alt="20200416193048"></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Shanyaliux/PicBed/images_for_blogs/20200416193355.png" alt="20200416193355"></p>
+<h2 id="使用"><a href="#使用" class="headerlink" title="使用"></a>使用</h2><p>右击你的博文文件夹，选择<code>通过 Code 打开</code></p>
+<p><img src="https://cdn.jsdelivr.net/gh/Shanyaliux/PicBed/images_for_blogs/20200416193521.png" alt="20200416193521"></p>
+<p><code>PicGo</code> 使用快捷键</p>
+<p><img src="https://cdn.jsdelivr.net/gh/Shanyaliux/PicBed/images_for_blogs/20200416193735.png" alt="20200416193735"></p>
+<p><code>Ctil + Alt + U</code> 图片在剪贴板上<br><code>Ctil + Alt + E</code> 从文件夹中选择图片</p>
 <script>
         document.querySelectorAll('.github-emoji')
           .forEach(el => {
@@ -621,7 +628,7 @@ yay -S ttf-wps-fonts</code></pre>
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="https://shanya.world/archives/ec10250d.html">https://shanya.world/archives/ec10250d.html</a>
+                    <a href="https://shanya.world/archives/2fb4d43a.html">https://shanya.world/archives/2fb4d43a.html</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -659,8 +666,20 @@ yay -S ttf-wps-fonts</code></pre>
                     
                         <div class="article-tag">
                             
-                                <a href="/tags/Manjaro/">
-                                    <span class="chip bg-color">Manjaro</span>
+                                <a href="/tags/hexo/">
+                                    <span class="chip bg-color">hexo</span>
+                                </a>
+                            
+                                <a href="/tags/VSCode/">
+                                    <span class="chip bg-color">VSCode</span>
+                                </a>
+                            
+                                <a href="/tags/jsDelivr/">
+                                    <span class="chip bg-color">jsDelivr</span>
+                                </a>
+                            
+                                <a href="/tags/%E5%9B%BE%E5%BA%8A/">
+                                    <span class="chip bg-color">图床</span>
                                 </a>
                             
                         </div>
@@ -1091,62 +1110,60 @@ yay -S ttf-wps-fonts</code></pre>
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-        <div class="article col s12 m6" data-aos="fade-up">
+        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
+                <i class="far fa-dot-circle"></i>&nbsp;本篇
+            </div>
             <div class="card">
-                <a href="/archives/5428a106.html">
+                <a href="/archives/2fb4d43a.html">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/10.jpg" class="responsive-img" alt="Android使用Volley获取json数据">
+                        <img src="/medias/featureimages/19.jpg" class="responsive-img" alt="VSCode + Picgo + jsDelivr 搭建稳定快速高效图床">
                         
-                        <span class="card-title">Android使用Volley获取json数据</span>
+                        <span class="card-title">VSCode + Picgo + jsDelivr 搭建稳定快速高效图床</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            Android使用Volley获取json数据
+                            VSCode + Picgo + jsDelivr 搭建稳定快速高效图床
                         
                     </div>
                     <div class="publish-info">
-                        <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2020-04-07
-                        </span>
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2020-04-16
+                            </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
                             
-                            <a href="/categories/Android/" class="post-category">
-                                    Android
-                                </a>
-                            
-                            <a href="/categories/Android/Kotlin/" class="post-category">
-                                    Kotlin
+                            <a href="/categories/hexo/" class="post-category">
+                                    hexo
                                 </a>
                             
                             
                         </span>
                     </div>
                 </div>
+
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/Android/">
-                        <span class="chip bg-color">Android</span>
+                    <a href="/tags/hexo/">
+                        <span class="chip bg-color">hexo</span>
                     </a>
                     
-                    <a href="/tags/Kotlin/">
-                        <span class="chip bg-color">Kotlin</span>
+                    <a href="/tags/VSCode/">
+                        <span class="chip bg-color">VSCode</span>
                     </a>
                     
-                    <a href="/tags/Json/">
-                        <span class="chip bg-color">Json</span>
+                    <a href="/tags/jsDelivr/">
+                        <span class="chip bg-color">jsDelivr</span>
                     </a>
                     
-                    <a href="/tags/Volley/">
-                        <span class="chip bg-color">Volley</span>
+                    <a href="/tags/%E5%9B%BE%E5%BA%8A/">
+                        <span class="chip bg-color">图床</span>
                     </a>
                     
                 </div>
@@ -1160,35 +1177,31 @@ yay -S ttf-wps-fonts</code></pre>
                 下一篇&nbsp;<i class="fas fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/archives/39c4da83.html">
+                <a href="/archives/9306ffaa.html">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/17.jpg" class="responsive-img" alt=" Android侧边栏Kotlin实现">
+                        <img src="/medias/featureimages/1.jpg" class="responsive-img" alt="hexo matery 个性化设置">
                         
-                        <span class="card-title"> Android侧边栏Kotlin实现</span>
+                        <span class="card-title">hexo matery 个性化设置</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            Android侧边栏Kotlin实现
+                            记录matery的个性化设置
                         
                     </div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2020-04-07
+                                <i class="far fa-clock fa-fw icon-date"></i>2020-04-12
                             </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
                             
-                            <a href="/categories/Android/" class="post-category">
-                                    Android
-                                </a>
-                            
-                            <a href="/categories/Android/Kotlin/" class="post-category">
-                                    Kotlin
+                            <a href="/categories/hexo/" class="post-category">
+                                    hexo
                                 </a>
                             
                             
@@ -1198,12 +1211,12 @@ yay -S ttf-wps-fonts</code></pre>
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/Android/">
-                        <span class="chip bg-color">Android</span>
+                    <a href="/tags/hexo/">
+                        <span class="chip bg-color">hexo</span>
                     </a>
                     
-                    <a href="/tags/Kotlin/">
-                        <span class="chip bg-color">Kotlin</span>
+                    <a href="/tags/matery/">
+                        <span class="chip bg-color">matery</span>
                     </a>
                     
                 </div>

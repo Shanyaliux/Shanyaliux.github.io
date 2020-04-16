@@ -4,6 +4,37 @@
   
     
     <entry>
+      <title>VSCode + Picgo + jsDelivr 搭建稳定快速高效图床</title>
+      <link href="/archives/2fb4d43a.html"/>
+      <url>/archives/2fb4d43a.html</url>
+      
+        <content type="html"><![CDATA[<p>图床是个什么玩意就不多说了，我比较喜欢的是利用<code>Picgo</code>插件的<code>Github</code>图床，但是其服务器不在国内，访问起来比较的慢，甚至无法访问。（期待早日取消半墙状态）  </p><p>所以需要利用到 <code>jsDelivr CDN</code> 加速 (<code>jsDelivr</code> 是一个免费开源的 <code>CDN</code> 解决方案)，<code>Picgo</code> 插件一键上传，<code>GIthub</code> 和 <code>jsDelivr</code> 又是知名大厂，不怕他删库跑路。最主要的是可以白嫖，嘿嘿 :)</p><p>我平时喜欢在 <code>VScode</code> 里面进行<code>Markdown</code> 的撰写，所以利用的是 <code>VSCode</code> 里面的 <code>PicGo</code> 插件，当然<code>PicGo</code> 也是有自己的客户端的，两种方式配置方式基本一样，使用起来也差不多。</p><h2 id="新建Github仓库"><a href="#新建Github仓库" class="headerlink" title="新建Github仓库"></a>新建Github仓库</h2><p><img src="https://cdn.jsdelivr.net/gh/Shanyaliux/PicBed/images_for_blogs/20200416191825.png" alt="20200416191825"></p><h2 id="生成一个Token"><a href="#生成一个Token" class="headerlink" title="生成一个Token"></a>生成一个Token</h2><p>按下图以此点击</p><p><img src="https://cdn.jsdelivr.net/gh/Shanyaliux/PicBed/images_for_blogs/20200416191927.png" alt="20200416191927"></p><p><img src="https://cdn.jsdelivr.net/gh/Shanyaliux/PicBed/images_for_blogs/20200416192045.png" alt="20200416192045"></p><p><img src="https://cdn.jsdelivr.net/gh/Shanyaliux/PicBed/images_for_blogs/20200416192100.png" alt="20200416192100"></p><p><img src="https://cdn.jsdelivr.net/gh/Shanyaliux/PicBed/images_for_blogs/20200416192116.png" alt="20200416192116"></p><p><img src="https://cdn.jsdelivr.net/gh/Shanyaliux/PicBed/images_for_blogs/20200416192228.png" alt="20200416192228"></p><p><img src="https://cdn.jsdelivr.net/gh/Shanyaliux/PicBed/images_for_blogs/20200416192300.png" alt="20200416192300"></p><p><img src="https://cdn.jsdelivr.net/gh/Shanyaliux/PicBed/images_for_blogs/20200416192402.png" alt="20200416192402"></p><h2 id="安装VSCode"><a href="#安装VSCode" class="headerlink" title="安装VSCode"></a>安装VSCode</h2><p><img src="https://cdn.jsdelivr.net/gh/Shanyaliux/PicBed/images_for_blogs/20200416192834.png" alt="20200416192834"></p><ul><li>打开软件，安装相关插件</li></ul><p><img src="https://cdn.jsdelivr.net/gh/Shanyaliux/PicBed/images_for_blogs/20200416192910.png" alt="20200416192910"></p><ul><li>下图这几个是我安装的，自行搜索安装</li></ul><p><img src="https://cdn.jsdelivr.net/gh/Shanyaliux/PicBed/images_for_blogs/20200416192949.png" alt="20200416192949"></p><h2 id="配置PicGo"><a href="#配置PicGo" class="headerlink" title="配置PicGo"></a>配置<code>PicGo</code></h2><p><img src="https://cdn.jsdelivr.net/gh/Shanyaliux/PicBed/images_for_blogs/20200416193023.png" alt="20200416193023"></p><p><img src="https://cdn.jsdelivr.net/gh/Shanyaliux/PicBed/images_for_blogs/20200416193048.png" alt="20200416193048"></p><p><img src="https://cdn.jsdelivr.net/gh/Shanyaliux/PicBed/images_for_blogs/20200416193355.png" alt="20200416193355"></p><h2 id="使用"><a href="#使用" class="headerlink" title="使用"></a>使用</h2><p>右击你的博文文件夹，选择<code>通过 Code 打开</code></p><p><img src="https://cdn.jsdelivr.net/gh/Shanyaliux/PicBed/images_for_blogs/20200416193521.png" alt="20200416193521"></p><p><code>PicGo</code> 使用快捷键</p><p><img src="https://cdn.jsdelivr.net/gh/Shanyaliux/PicBed/images_for_blogs/20200416193735.png" alt="20200416193735"></p><p><code>Ctil + Alt + U</code> 图片在剪贴板上<br><code>Ctil + Alt + E</code> 从文件夹中选择图片</p><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+      
+      
+      <categories>
+          
+          <category> hexo </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> hexo </tag>
+            
+            <tag> VSCode </tag>
+            
+            <tag> jsDelivr </tag>
+            
+            <tag> 图床 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>hexo matery 个性化设置</title>
       <link href="/archives/9306ffaa.html"/>
       <url>/archives/9306ffaa.html</url>

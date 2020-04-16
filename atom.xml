@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://shanya.world/"/>
-  <updated>2020-04-13T09:30:35.889Z</updated>
+  <updated>2020-04-16T11:39:03.511Z</updated>
   <id>https://shanya.world/</id>
   
   <author>
@@ -15,6 +15,40 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>VSCode + Picgo + jsDelivr 搭建稳定快速高效图床</title>
+    <link href="https://shanya.world/archives/2fb4d43a.html"/>
+    <id>https://shanya.world/archives/2fb4d43a.html</id>
+    <published>2020-04-16T11:10:21.000Z</published>
+    <updated>2020-04-16T11:39:03.511Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;图床是个什么玩意就不多说了，我比较喜欢的是利用&lt;code&gt;Picgo&lt;/code&gt;插件的&lt;code&gt;Github&lt;/code&gt;图床，但是其服务器不在国内，访问起来比较的慢，甚至无法访问。（期待早日取消半墙状态）  &lt;/p&gt;
+&lt;p&gt;所以需要利用到
+        
+      
+    
+    </summary>
+    
+    
+      <category term="hexo" scheme="https://shanya.world/categories/hexo/"/>
+    
+    
+      <category term="hexo" scheme="https://shanya.world/tags/hexo/"/>
+    
+      <category term="VSCode" scheme="https://shanya.world/tags/VSCode/"/>
+    
+      <category term="jsDelivr" scheme="https://shanya.world/tags/jsDelivr/"/>
+    
+      <category term="图床" scheme="https://shanya.world/tags/%E5%9B%BE%E5%BA%8A/"/>
+    
+  </entry>
   
   <entry>
     <title>hexo matery 个性化设置</title>
