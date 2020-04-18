@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="安装Manjaro之后要做的一些事, Android,Java,Kotlin,C++,C等">
+    <meta name="keywords" content="Android 上传库至 jitpack, Android,Java,Kotlin,C++,C等">
     <meta name="description" content="分享生活,分享知识">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -16,7 +16,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>安装Manjaro之后要做的一些事 | Shanya的博客</title>
+    <title>Android 上传库至 jitpack | Shanya的博客</title>
     <link rel="icon" type="image/x-icon, image/vnd.microsoft.icon" href="/favicon.ico">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
@@ -353,12 +353,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/10.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/21.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">安装Manjaro之后要做的一些事</h1>
+                    <h1 class="description center-align post-title">Android 上传库至 jitpack</h1>
                 </div>
             </div>
         </div>
@@ -483,8 +483,12 @@
                     
                     <div class="article-tag">
                         
-                            <a href="/tags/Manjaro/">
-                                <span class="chip bg-color">Manjaro</span>
+                            <a href="/tags/Android/">
+                                <span class="chip bg-color">Android</span>
+                            </a>
+                        
+                            <a href="/tags/jitpack/">
+                                <span class="chip bg-color">jitpack</span>
                             </a>
                         
                     </div>
@@ -495,8 +499,8 @@
                     <div class="post-cate">
                         <i class="fas fa-bookmark fa-fw icon-category"></i>
                         
-                            <a href="/categories/Manjaro/" class="post-category">
-                                Manjaro
+                            <a href="/categories/Android/" class="post-category">
+                                Android
                             </a>
                         
                     </div>
@@ -508,21 +512,21 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2020-04-07
+                    2020-04-18
                 </div>
                 
 
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-check fa-fw"></i>更新日期:&nbsp;&nbsp;
-                    2020-04-12
+                    2020-04-18
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    375
+                    226
                 </div>
                 
 
@@ -544,40 +548,56 @@
         <hr class="clearfix">
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <pre><code>为什么是Manjaro？
-对我来说只有一点，就是 ***aur*** 。
-本文记录的是我安装完Manjaro之后做的一些事。</code></pre><a id="more"></a>
+                <h2 id="需求"><a href="#需求" class="headerlink" title="需求"></a>需求</h2><ul>
+<li>源码</li>
+<li>Github仓库</li>
+<li>jitpack</li>
+</ul>
+<h2 id="项目的设置"><a href="#项目的设置" class="headerlink" title="项目的设置"></a>项目的设置</h2><ul>
+<li>正常创建一个Android项目，新建一个Module</li>
+</ul>
+<p><img src="https://cdn.jsdelivr.net/gh/Shanyaliux/PicBed@master/images_for_blogs/20200418101325.png" alt="20200418101325"></p>
+<ul>
+<li>选择 Android Library</li>
+</ul>
+<p><img src="https://cdn.jsdelivr.net/gh/Shanyaliux/PicBed@master/images_for_blogs/20200418101403.png" alt="20200418101403"></p>
+<ul>
+<li><p>把你代码放在这个Module中</p>
+</li>
+<li><p>在项目的 <code>build.gradle</code> 中添加 <code>classpath 'com.github.dcendents:android-maven-gradle-plugin:2.1'</code>位置如下</p>
+</li>
+</ul>
+<p><img src="https://cdn.jsdelivr.net/gh/Shanyaliux/PicBed@master/images_for_blogs/20200418101622.png" alt="20200418101622"></p>
+<ul>
+<li>在你的Module的<code>build.gradle</code>中添加，替换自己的Github用户名</li>
+</ul>
+<pre><code> apply plugin: 'com.github.dcendents.android-maven'  
 
-<pre><code>ps： Manjaro根据不同的桌面环境有三个版本，我的是gnome版本</code></pre><h3 id="更换源"><a href="#更换源" class="headerlink" title="更换源"></a>更换源</h3><p>终端输入一下两个命令</p>
-<pre class=" language-Shell"><code class="language-Shell">sudo pacman-mirrors -i -c China -m rank
-sudo pacman -Syy</code></pre>
-<p>这会显示几个速度快的源，选最快的那个。<br>当然也可以自己添加源到配置文件。<br>在<code>/etc/pacman.conf</code>的最后一行添加：</p>
-<pre class=" language-Shell"><code class="language-Shell">[archlinuxcn]
-SigLevel = Optional TrustedOnly
-Server = https://mirrors.ustc.edu.cn/archlinuxcn/$arch</code></pre>
-<p>然后终端运行命令：</p>
-<pre class=" language-Shell"><code class="language-Shell">sudo pacman -Syy
-sudo pacman -S archlinuxcn-keyring</code></pre>
-<h3 id="常用软件"><a href="#常用软件" class="headerlink" title="常用软件"></a>常用软件</h3><h4 id="yay"><a href="#yay" class="headerlink" title="yay"></a>yay</h4><p>它可以代替pacman安装软件</p>
-<pre class=" language-Shell"><code class="language-Shell">sudo pacman -S yay base-devel</code></pre>
-<h4 id="搜狗输入法"><a href="#搜狗输入法" class="headerlink" title="搜狗输入法"></a>搜狗输入法</h4><p>按照我的操作可以实现大多数地方的中文输入，有些软件不能输入：网易云（ps：主要这个我不是那么的在乎）</p>
-<pre class=" language-Shell"><code class="language-Shell">sudo pacman -S fcitx-im #全部安装
-sudo pacman -S fcitx-configtool
-sudo pacman -S fcitx-sogoupinyin
-sudo pacman -Rsn fcitx-im fcitx-configtool
-sudo pacman -S fcitx-lilydjwg-git fcitx-sogoupinyin
-sudo pacman -S fcitx-configtool fcitx-qt5
-sudo pacman -S fcitx5</code></pre>
-<p>在<code>~/.xprofile</code>添加用户环境</p>
-<pre class=" language-Shell"><code class="language-Shell">export GTK_IM_MODULE=fcitx
-export QT_IM_MODULE=fcitx
-export XMODIFIERS="@im=fcitx"</code></pre>
-<h4 id="谷歌浏览器"><a href="#谷歌浏览器" class="headerlink" title="谷歌浏览器"></a>谷歌浏览器</h4><pre class=" language-Shell"><code class="language-Shell">sudo pacman -S google-chrome</code></pre>
-<h4 id="git"><a href="#git" class="headerlink" title="git"></a>git</h4><pre class=" language-Shell"><code class="language-Shell">sudo pacman -S git</code></pre>
-<h4 id="vscode"><a href="#vscode" class="headerlink" title="vscode"></a>vscode</h4><pre class=" language-Shell"><code class="language-Shell">sudo pacman -S visual-studio-code-bin</code></pre>
-<h4 id="网易云音乐"><a href="#网易云音乐" class="headerlink" title="网易云音乐"></a>网易云音乐</h4><pre class=" language-Shell"><code class="language-Shell">yay -S netease-cloud-music</code></pre>
-<h4 id="wps"><a href="#wps" class="headerlink" title="wps"></a>wps</h4><pre class=" language-Shell"><code class="language-Shell">yay -S wps-office
-yay -S ttf-wps-fonts</code></pre>
+ group='com.github.YourUsername'</code></pre><h2 id="项目上传至Github仓库并发布一个版本"><a href="#项目上传至Github仓库并发布一个版本" class="headerlink" title="项目上传至Github仓库并发布一个版本"></a>项目上传至Github仓库并发布一个版本</h2><ul>
+<li><p>上传就不啰嗦了</p>
+</li>
+<li><p>一定记得发布</p>
+</li>
+</ul>
+<h2 id="上传至jitpack"><a href="#上传至jitpack" class="headerlink" title="上传至jitpack"></a>上传至jitpack</h2><ul>
+<li><p>打开其官网，点这里 <a href="https://jitpack.io/" target="_blank" rel="noopener">jitpack</a></p>
+</li>
+<li><p>输入你的Github仓库地址，点击 <code>Look up</code></p>
+</li>
+</ul>
+<p><img src="https://cdn.jsdelivr.net/gh/Shanyaliux/PicBed@master/images_for_blogs/20200418101944.png" alt="20200418101944"></p>
+<ul>
+<li>出现你的发布版本，点击 <code>Get it</code></li>
+</ul>
+<p><img src="https://cdn.jsdelivr.net/gh/Shanyaliux/PicBed@master/images_for_blogs/20200418102246.png" alt="20200418102246"></p>
+<ul>
+<li>自行拷贝配置</li>
+</ul>
+<p><img src="https://img-blog.csdnimg.cn/20200418102739282.png?x-oss-process=image/watermark,type_ZmFuZ3poZW5naGVpdGk,shadow_10,text_aHR0cHM6Ly9ibG9nLmNzZG4ubmV0L3FxXzQxMTIxMDgw,size_16,color_FFFFFF,t_70" alt="2020041802265"></p>
+<p>参考文档:</p>
+<ul>
+<li><a href="https://jitpack.io/docs/ANDROID/" target="_blank" rel="noopener">https://jitpack.io/docs/ANDROID/</a></li>
+</ul>
 <script>
         document.querySelectorAll('.github-emoji')
           .forEach(el => {
@@ -621,7 +641,7 @@ yay -S ttf-wps-fonts</code></pre>
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="https://shanya.world/archives/ec10250d.html">https://shanya.world/archives/ec10250d.html</a>
+                    <a href="https://shanya.world/archives/c0a1d02b.html">https://shanya.world/archives/c0a1d02b.html</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -659,8 +679,12 @@ yay -S ttf-wps-fonts</code></pre>
                     
                         <div class="article-tag">
                             
-                                <a href="/tags/Manjaro/">
-                                    <span class="chip bg-color">Manjaro</span>
+                                <a href="/tags/Android/">
+                                    <span class="chip bg-color">Android</span>
+                                </a>
+                            
+                                <a href="/tags/jitpack/">
+                                    <span class="chip bg-color">jitpack</span>
                                 </a>
                             
                         </div>
@@ -1091,29 +1115,30 @@ yay -S ttf-wps-fonts</code></pre>
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-        <div class="article col s12 m6" data-aos="fade-up">
+        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
+                <i class="far fa-dot-circle"></i>&nbsp;本篇
+            </div>
             <div class="card">
-                <a href="/archives/5428a106.html">
+                <a href="/archives/c0a1d02b.html">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/10.jpg" class="responsive-img" alt="Android使用Volley获取json数据">
+                        <img src="/medias/featureimages/21.jpg" class="responsive-img" alt="Android 上传库至 jitpack">
                         
-                        <span class="card-title">Android使用Volley获取json数据</span>
+                        <span class="card-title">Android 上传库至 jitpack</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            Android使用Volley获取json数据
+                            上传一个自己的库至 jitpack，方便自己或他人调用
                         
                     </div>
                     <div class="publish-info">
-                        <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2020-04-07
-                        </span>
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2020-04-18
+                            </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
@@ -1122,14 +1147,11 @@ yay -S ttf-wps-fonts</code></pre>
                                     Android
                                 </a>
                             
-                            <a href="/categories/Android/Kotlin/" class="post-category">
-                                    Kotlin
-                                </a>
-                            
                             
                         </span>
                     </div>
                 </div>
+
                 
                 <div class="card-action article-tags">
                     
@@ -1137,16 +1159,8 @@ yay -S ttf-wps-fonts</code></pre>
                         <span class="chip bg-color">Android</span>
                     </a>
                     
-                    <a href="/tags/Kotlin/">
-                        <span class="chip bg-color">Kotlin</span>
-                    </a>
-                    
-                    <a href="/tags/Json/">
-                        <span class="chip bg-color">Json</span>
-                    </a>
-                    
-                    <a href="/tags/Volley/">
-                        <span class="chip bg-color">Volley</span>
+                    <a href="/tags/jitpack/">
+                        <span class="chip bg-color">jitpack</span>
                     </a>
                     
                 </div>
@@ -1160,24 +1174,24 @@ yay -S ttf-wps-fonts</code></pre>
                 下一篇&nbsp;<i class="fas fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/archives/39c4da83.html">
+                <a href="/archives/6f11b78c.html">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/17.jpg" class="responsive-img" alt=" Android侧边栏Kotlin实现">
+                        <img src="/medias/featureimages/5.jpg" class="responsive-img" alt="封装一个 OkHttp 的下载工具类">
                         
-                        <span class="card-title"> Android侧边栏Kotlin实现</span>
+                        <span class="card-title">封装一个 OkHttp 的下载工具类</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            Android侧边栏Kotlin实现
+                            封装一个 OkHttp 的下载工具类，方便以后使用
                         
                     </div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2020-04-07
+                                <i class="far fa-clock fa-fw icon-date"></i>2020-04-18
                             </span>
                         <span class="publish-author">
                             
@@ -1187,8 +1201,8 @@ yay -S ttf-wps-fonts</code></pre>
                                     Android
                                 </a>
                             
-                            <a href="/categories/Android/Kotlin/" class="post-category">
-                                    Kotlin
+                            <a href="/categories/Android/Java/" class="post-category">
+                                    Java
                                 </a>
                             
                             
@@ -1202,8 +1216,20 @@ yay -S ttf-wps-fonts</code></pre>
                         <span class="chip bg-color">Android</span>
                     </a>
                     
-                    <a href="/tags/Kotlin/">
-                        <span class="chip bg-color">Kotlin</span>
+                    <a href="/tags/Java/">
+                        <span class="chip bg-color">Java</span>
+                    </a>
+                    
+                    <a href="/tags/jitpack/">
+                        <span class="chip bg-color">jitpack</span>
+                    </a>
+                    
+                    <a href="/tags/OkHttp/">
+                        <span class="chip bg-color">OkHttp</span>
+                    </a>
+                    
+                    <a href="/tags/Download/">
+                        <span class="chip bg-color">Download</span>
                     </a>
                     
                 </div>

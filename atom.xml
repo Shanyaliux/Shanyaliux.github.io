@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://shanya.world/"/>
-  <updated>2020-04-16T11:45:04.078Z</updated>
+  <updated>2020-04-18T02:29:56.451Z</updated>
   <id>https://shanya.world/</id>
   
   <author>
@@ -15,6 +15,79 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>Android 上传库至 jitpack</title>
+    <link href="https://shanya.world/archives/c0a1d02b.html"/>
+    <id>https://shanya.world/archives/c0a1d02b.html</id>
+    <published>2020-04-18T01:39:55.000Z</published>
+    <updated>2020-04-18T02:29:56.451Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;需求&quot;&gt;&lt;a href=&quot;#需求&quot; class=&quot;headerlink&quot; title=&quot;需求&quot;&gt;&lt;/a&gt;需求&lt;/h2&gt;&lt;ul&gt;
+&lt;li&gt;源码&lt;/li&gt;
+&lt;li&gt;Github仓库&lt;/li&gt;
+&lt;li&gt;jitpack&lt;/li&gt;
+&lt;/ul&gt;
+&lt;h2
+        
+      
+    
+    </summary>
+    
+    
+      <category term="Android" scheme="https://shanya.world/categories/Android/"/>
+    
+    
+      <category term="Android" scheme="https://shanya.world/tags/Android/"/>
+    
+      <category term="jitpack" scheme="https://shanya.world/tags/jitpack/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>封装一个 OkHttp 的下载工具类</title>
+    <link href="https://shanya.world/archives/6f11b78c.html"/>
+    <id>https://shanya.world/archives/6f11b78c.html</id>
+    <published>2020-04-18T01:19:23.000Z</published>
+    <updated>2020-04-18T02:29:59.071Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;p&gt;为了更好的方便使用，我已经上传至&lt;code&gt;jitpack&lt;/code&gt;，直接在添加依赖即可。&lt;/p&gt;
+&lt;p&gt;如何上传 &lt;code&gt;jitpack&lt;/code&gt; 参考： &lt;a href=&quot;&quot;&gt;&lt;/a&gt;&lt;/p&gt;
+&lt;p&gt;源码地址： &lt;a
+        
+      
+    
+    </summary>
+    
+    
+      <category term="Android" scheme="https://shanya.world/categories/Android/"/>
+    
+      <category term="Java" scheme="https://shanya.world/categories/Android/Java/"/>
+    
+    
+      <category term="Android" scheme="https://shanya.world/tags/Android/"/>
+    
+      <category term="Java" scheme="https://shanya.world/tags/Java/"/>
+    
+      <category term="jitpack" scheme="https://shanya.world/tags/jitpack/"/>
+    
+      <category term="OkHttp" scheme="https://shanya.world/tags/OkHttp/"/>
+    
+      <category term="Download" scheme="https://shanya.world/tags/Download/"/>
+    
+  </entry>
   
   <entry>
     <title>VSCode + Github + Picgo + jsDelivr 搭建稳定快速高效图床</title>
