@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://shanya.world/"/>
-  <updated>2020-05-04T07:11:44.610Z</updated>
+  <updated>2020-05-04T07:45:53.669Z</updated>
   <id>https://shanya.world/</id>
   
   <author>
@@ -20,8 +20,8 @@
     <title>封装一个蓝牙串口工具类</title>
     <link href="https://shanya.world/archives/2fd981ea.html"/>
     <id>https://shanya.world/archives/2fd981ea.html</id>
-    <published>2020-05-04T05:59:16.521Z</published>
-    <updated>2020-05-04T07:11:44.610Z</updated>
+    <published>2020-05-04T05:59:16.000Z</published>
+    <updated>2020-05-04T07:45:53.669Z</updated>
     
     <summary type="html">
     
@@ -29,14 +29,28 @@
       
         
         
-          &lt;hr&gt;
-&lt;p&gt;title: 封装一个蓝牙串口工具类&lt;br&gt;author: Shanya&lt;br&gt;cover: true&lt;br&gt;date: 2020-05-04 13:59:16&lt;br&gt;summary:
+          &lt;p&gt;把串口通信相关代码封装一下，省的每次都要重新写那些啰嗦的代码。&lt;/p&gt;
+&lt;p&gt;如何上传 &lt;code&gt;jitpack&lt;/code&gt; 参考： &lt;a href=&quot;https://www.shanya.world/archives/c0a1d02b.html&quot;
         
       
     
     </summary>
     
     
+      <category term="Android" scheme="https://shanya.world/categories/Android/"/>
+    
+      <category term="Java" scheme="https://shanya.world/categories/Android/Java/"/>
+    
+    
+      <category term="Android" scheme="https://shanya.world/tags/Android/"/>
+    
+      <category term="Java" scheme="https://shanya.world/tags/Java/"/>
+    
+      <category term="SerialPort" scheme="https://shanya.world/tags/SerialPort/"/>
+    
+      <category term="jitpack" scheme="https://shanya.world/tags/jitpack/"/>
+    
+      <category term="Bluetooth" scheme="https://shanya.world/tags/Bluetooth/"/>
     
   </entry>
   
