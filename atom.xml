@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://shanya.world/"/>
-  <updated>2020-04-18T02:29:56.451Z</updated>
+  <updated>2020-05-04T07:11:44.610Z</updated>
   <id>https://shanya.world/</id>
   
   <author>
@@ -17,11 +17,35 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
+    <title>封装一个蓝牙串口工具类</title>
+    <link href="https://shanya.world/archives/2fd981ea.html"/>
+    <id>https://shanya.world/archives/2fd981ea.html</id>
+    <published>2020-05-04T05:59:16.521Z</published>
+    <updated>2020-05-04T07:11:44.610Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;hr&gt;
+&lt;p&gt;title: 封装一个蓝牙串口工具类&lt;br&gt;author: Shanya&lt;br&gt;cover: true&lt;br&gt;date: 2020-05-04 13:59:16&lt;br&gt;summary:
+        
+      
+    
+    </summary>
+    
+    
+    
+  </entry>
+  
+  <entry>
     <title>Android 上传库至 jitpack</title>
     <link href="https://shanya.world/archives/c0a1d02b.html"/>
     <id>https://shanya.world/archives/c0a1d02b.html</id>
     <published>2020-04-18T01:39:55.000Z</published>
-    <updated>2020-04-18T02:29:56.451Z</updated>
+    <updated>2020-04-18T02:30:21.682Z</updated>
     
     <summary type="html">
     
@@ -55,7 +79,7 @@
     <link href="https://shanya.world/archives/6f11b78c.html"/>
     <id>https://shanya.world/archives/6f11b78c.html</id>
     <published>2020-04-18T01:19:23.000Z</published>
-    <updated>2020-04-18T02:29:59.071Z</updated>
+    <updated>2020-05-04T06:33:21.948Z</updated>
     
     <summary type="html">
     
@@ -64,8 +88,7 @@
         
         
           &lt;p&gt;为了更好的方便使用，我已经上传至&lt;code&gt;jitpack&lt;/code&gt;，直接在添加依赖即可。&lt;/p&gt;
-&lt;p&gt;如何上传 &lt;code&gt;jitpack&lt;/code&gt; 参考： &lt;a href=&quot;&quot;&gt;&lt;/a&gt;&lt;/p&gt;
-&lt;p&gt;源码地址： &lt;a
+&lt;p&gt;如何上传 &lt;code&gt;jitpack&lt;/code&gt; 参考： &lt;a
         
       
     
