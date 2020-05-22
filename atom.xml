@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://shanya.world/"/>
-  <updated>2020-05-04T07:45:53.669Z</updated>
+  <updated>2020-05-04T08:19:32.715Z</updated>
   <id>https://shanya.world/</id>
   
   <author>
@@ -17,11 +17,11 @@
   <generator uri="https://hexo.io/">Hexo</generator>
   
   <entry>
-    <title>封装一个蓝牙串口工具类</title>
+    <title>封装一个Android蓝牙串口工具类</title>
     <link href="https://shanya.world/archives/2fd981ea.html"/>
     <id>https://shanya.world/archives/2fd981ea.html</id>
     <published>2020-05-04T05:59:16.000Z</published>
-    <updated>2020-05-04T07:45:53.669Z</updated>
+    <updated>2020-05-04T08:19:32.715Z</updated>
     
     <summary type="html">
     
