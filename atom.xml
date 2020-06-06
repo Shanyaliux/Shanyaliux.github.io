@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://shanya.world/"/>
-  <updated>2020-05-04T08:19:32.715Z</updated>
+  <updated>2020-06-06T15:06:52.197Z</updated>
   <id>https://shanya.world/</id>
   
   <author>
@@ -15,6 +15,43 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>使用v2ray实现科学上网</title>
+    <link href="https://shanya.world/archives/8a378722.html"/>
+    <id>https://shanya.world/archives/8a378722.html</id>
+    <published>2020-06-06T15:04:27.000Z</published>
+    <updated>2020-06-06T15:06:52.197Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h1 id=&quot;使用v2ray实现科学上网&quot;&gt;&lt;a href=&quot;#使用v2ray实现科学上网&quot; class=&quot;headerlink&quot; title=&quot;使用v2ray实现科学上网&quot;&gt;&lt;/a&gt;使用v2ray实现科学上网&lt;/h1&gt;&lt;h3 id=&quot;首先购买一个海外的VPS&quot;&gt;&lt;a
+        
+      
+    
+    </summary>
+    
+    
+      <category term="v2ray" scheme="https://shanya.world/categories/v2ray/"/>
+    
+    
+      <category term="v2ray" scheme="https://shanya.world/tags/v2ray/"/>
+    
+      <category term="VPN" scheme="https://shanya.world/tags/VPN/"/>
+    
+      <category term="科学上网" scheme="https://shanya.world/tags/%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91/"/>
+    
+      <category term="vultr" scheme="https://shanya.world/tags/vultr/"/>
+    
+      <category term="vps" scheme="https://shanya.world/tags/vps/"/>
+    
+      <category term="翻墙" scheme="https://shanya.world/tags/%E7%BF%BB%E5%A2%99/"/>
+    
+  </entry>
   
   <entry>
     <title>封装一个Android蓝牙串口工具类</title>
@@ -46,9 +83,9 @@
     
       <category term="Java" scheme="https://shanya.world/tags/Java/"/>
     
-      <category term="SerialPort" scheme="https://shanya.world/tags/SerialPort/"/>
-    
       <category term="jitpack" scheme="https://shanya.world/tags/jitpack/"/>
+    
+      <category term="SerialPort" scheme="https://shanya.world/tags/SerialPort/"/>
     
       <category term="Bluetooth" scheme="https://shanya.world/tags/Bluetooth/"/>
     
