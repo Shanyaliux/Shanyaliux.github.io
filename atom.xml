@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://shanya.world/"/>
-  <updated>2020-06-06T15:07:24.157Z</updated>
+  <updated>2020-06-16T02:27:35.244Z</updated>
   <id>https://shanya.world/</id>
   
   <author>
@@ -15,6 +15,42 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>PicGo 配合 Gitee 实现个人博客的高速稳定图床</title>
+    <link href="https://shanya.world/archives/c77f2ba5.html"/>
+    <id>https://shanya.world/archives/c77f2ba5.html</id>
+    <published>2020-06-16T01:55:56.000Z</published>
+    <updated>2020-06-16T02:27:35.244Z</updated>
+    
+    <summary type="html">
+    
+      
+      
+        
+        
+          &lt;h2 id=&quot;前言&quot;&gt;&lt;a href=&quot;#前言&quot; class=&quot;headerlink&quot; title=&quot;前言&quot;&gt;&lt;/a&gt;前言&lt;/h2&gt;&lt;p&gt;之前用的图床是GIthub上的，使用了 jsDelivr 进行加速，详细请见文章  &lt;/p&gt;
+&lt;p&gt; &lt;a
+        
+      
+    
+    </summary>
+    
+    
+      <category term="hexo" scheme="https://shanya.world/categories/hexo/"/>
+    
+    
+      <category term="hexo" scheme="https://shanya.world/tags/hexo/"/>
+    
+      <category term="图床" scheme="https://shanya.world/tags/%E5%9B%BE%E5%BA%8A/"/>
+    
+      <category term="Gitee" scheme="https://shanya.world/tags/Gitee/"/>
+    
+      <category term="Picgo" scheme="https://shanya.world/tags/Picgo/"/>
+    
+      <category term="个人博客" scheme="https://shanya.world/tags/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/"/>
+    
+  </entry>
   
   <entry>
     <title>使用v2ray实现科学上网</title>
@@ -81,13 +117,13 @@
     
       <category term="Android" scheme="https://shanya.world/tags/Android/"/>
     
-      <category term="Java" scheme="https://shanya.world/tags/Java/"/>
-    
-      <category term="SerialPort" scheme="https://shanya.world/tags/SerialPort/"/>
-    
       <category term="jitpack" scheme="https://shanya.world/tags/jitpack/"/>
     
+      <category term="Java" scheme="https://shanya.world/tags/Java/"/>
+    
       <category term="Bluetooth" scheme="https://shanya.world/tags/Bluetooth/"/>
+    
+      <category term="SerialPort" scheme="https://shanya.world/tags/SerialPort/"/>
     
   </entry>
   
@@ -153,9 +189,9 @@
     
       <category term="Android" scheme="https://shanya.world/tags/Android/"/>
     
-      <category term="Java" scheme="https://shanya.world/tags/Java/"/>
-    
       <category term="jitpack" scheme="https://shanya.world/tags/jitpack/"/>
+    
+      <category term="Java" scheme="https://shanya.world/tags/Java/"/>
     
       <category term="OkHttp" scheme="https://shanya.world/tags/OkHttp/"/>
     
@@ -189,11 +225,11 @@
     
       <category term="hexo" scheme="https://shanya.world/tags/hexo/"/>
     
+      <category term="图床" scheme="https://shanya.world/tags/%E5%9B%BE%E5%BA%8A/"/>
+    
       <category term="VSCode" scheme="https://shanya.world/tags/VSCode/"/>
     
       <category term="jsDelivr" scheme="https://shanya.world/tags/jsDelivr/"/>
-    
-      <category term="图床" scheme="https://shanya.world/tags/%E5%9B%BE%E5%BA%8A/"/>
     
   </entry>
   
@@ -575,35 +611,6 @@
       <category term="LiveData" scheme="https://shanya.world/tags/LiveData/"/>
     
       <category term="DataBingding" scheme="https://shanya.world/tags/DataBingding/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Android Studio 的蓝牙串口通信（附Demo源码下载）</title>
-    <link href="https://shanya.world/archives/3a0ead9f.html"/>
-    <id>https://shanya.world/archives/3a0ead9f.html</id>
-    <published>2020-04-07T08:35:59.000Z</published>
-    <updated>2020-04-12T09:33:08.980Z</updated>
-    
-    <summary type="html">
-    
-      &lt;p&gt;这次做项目用到了蓝牙串口，折腾了两天总算弄出来了，记录一下方便以后回顾。&lt;/p&gt;
-    
-    </summary>
-    
-    
-      <category term="Android" scheme="https://shanya.world/categories/Android/"/>
-    
-      <category term="Java" scheme="https://shanya.world/categories/Android/Java/"/>
-    
-    
-      <category term="Android" scheme="https://shanya.world/tags/Android/"/>
-    
-      <category term="Java" scheme="https://shanya.world/tags/Java/"/>
-    
-      <category term="Blueteeth" scheme="https://shanya.world/tags/Blueteeth/"/>
-    
-      <category term="SerialPort" scheme="https://shanya.world/tags/SerialPort/"/>
     
   </entry>
   

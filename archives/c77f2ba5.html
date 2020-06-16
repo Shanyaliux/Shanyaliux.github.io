@@ -4,7 +4,7 @@
 
 <head>
     <meta charset="utf-8">
-    <meta name="keywords" content="Android Room By Kotlin, Android,Java,Kotlin,C++,C等">
+    <meta name="keywords" content="PicGo 配合 Gitee 实现个人博客的高速稳定图床, Android,Java,Kotlin,C++,C等">
     <meta name="description" content="分享生活,分享知识">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
@@ -16,7 +16,7 @@
     <!-- Global site tag (gtag.js) - Google Analytics -->
 
 
-    <title>Android Room By Kotlin | Shanya的博客</title>
+    <title>PicGo 配合 Gitee 实现个人博客的高速稳定图床 | Shanya的博客</title>
     <link rel="icon" type="image/x-icon, image/vnd.microsoft.icon" href="/favicon.ico">
 
     <link rel="stylesheet" type="text/css" href="/libs/awesome/css/all.css">
@@ -353,12 +353,12 @@
 
 
 
-<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/2.jpg')">
+<div class="bg-cover pd-header post-cover" style="background-image: url('/medias/featureimages/23.jpg')">
     <div class="container" style="right: 0px;left: 0px;">
         <div class="row">
             <div class="col s12 m12 l12">
                 <div class="brand">
-                    <h1 class="description center-align post-title">Android Room By Kotlin</h1>
+                    <h1 class="description center-align post-title">PicGo 配合 Gitee 实现个人博客的高速稳定图床</h1>
                 </div>
             </div>
         </div>
@@ -483,16 +483,24 @@
                     
                     <div class="article-tag">
                         
-                            <a href="/tags/Android/">
-                                <span class="chip bg-color">Android</span>
+                            <a href="/tags/hexo/">
+                                <span class="chip bg-color">hexo</span>
                             </a>
                         
-                            <a href="/tags/Kotlin/">
-                                <span class="chip bg-color">Kotlin</span>
+                            <a href="/tags/%E5%9B%BE%E5%BA%8A/">
+                                <span class="chip bg-color">图床</span>
                             </a>
                         
-                            <a href="/tags/Room/">
-                                <span class="chip bg-color">Room</span>
+                            <a href="/tags/Gitee/">
+                                <span class="chip bg-color">Gitee</span>
+                            </a>
+                        
+                            <a href="/tags/Picgo/">
+                                <span class="chip bg-color">Picgo</span>
+                            </a>
+                        
+                            <a href="/tags/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/">
+                                <span class="chip bg-color">个人博客</span>
                             </a>
                         
                     </div>
@@ -503,12 +511,8 @@
                     <div class="post-cate">
                         <i class="fas fa-bookmark fa-fw icon-category"></i>
                         
-                            <a href="/categories/Android/" class="post-category">
-                                Android
-                            </a>
-                        
-                            <a href="/categories/Android/Kotlin/" class="post-category">
-                                Kotlin
+                            <a href="/categories/hexo/" class="post-category">
+                                hexo
                             </a>
                         
                     </div>
@@ -520,28 +524,28 @@
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-minus fa-fw"></i>发布日期:&nbsp;&nbsp;
-                    2020-04-07
+                    2020-06-16
                 </div>
                 
 
                 
                 <div class="post-date info-break-policy">
                     <i class="far fa-calendar-check fa-fw"></i>更新日期:&nbsp;&nbsp;
-                    2020-04-12
+                    2020-06-16
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-file-word fa-fw"></i>文章字数:&nbsp;&nbsp;
-                    2.5k
+                    760
                 </div>
                 
 
                 
                 <div class="info-break-policy">
                     <i class="far fa-clock fa-fw"></i>阅读时长:&nbsp;&nbsp;
-                    10 分
+                    3 分
                 </div>
                 
 
@@ -556,222 +560,64 @@
         <hr class="clearfix">
         <div class="card-content article-card-content">
             <div id="articleContent">
-                <p>本Demo是演示Room在Kotlin语法下使用的一个简单的应用程序。</p>
-<a id="more"></a>
-
-<h1 id="Room介绍"><a href="#Room介绍" class="headerlink" title="Room介绍"></a>Room介绍</h1><p>Room 持久性库在 SQLite 的基础上提供了一个抽象层，让用户能够在充分利用 SQLite 的强大功能的同时，获享更强健的数据库访问机制。</p>
-<p>该库可帮助您在运行应用的设备上创建本地数据库。</p>
-<h1 id="步骤"><a href="#步骤" class="headerlink" title="步骤"></a>步骤</h1><h2 id="1、新建一个空的工程"><a href="#1、新建一个空的工程" class="headerlink" title="1、新建一个空的工程"></a>1、新建一个空的工程</h2><p><img src="https://imgconvert.csdnimg.cn/aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL1NoYW55YWxpdXgvUGljQmVkL21hc3Rlci9pbWFnZXNfZm9yX2Jsb2dzL0FuZHJvaWQtUm9vbS1CeS1Lb3RsaW4yMDIwLTEtMjctMTktMTUtNTE?x-oss-process=image/format,png" alt="Android-Room-By-Kotlin2020-1-27-19-15-51"></p>
-<h2 id="2、更新Gradle文件"><a href="#2、更新Gradle文件" class="headerlink" title="2、更新Gradle文件"></a>2、更新Gradle文件</h2><p>必须将组件库添加到Gradle文件中<br>在你的<code>build.gradle</code>（Module：app）中进行以下更改：<br>通过将kapt 注释处理器 Kotlin插件添加到（Module：app）文件顶部定义的其他插件之后，来应用它。<br><code>bulid.gradle</code></p>
-<pre class=" language-gradle"><code class="language-gradle">apply plugin: 'kotlin-kapt'</code></pre>
-<pre class=" language-gradle"><code class="language-gradle">android {
-    // 系统自动生成的在这里省略了……
-
-    packagingOptions {
-        exclude 'META-INF/atomicfu.kotlin_module'
-    }
-}</code></pre>
-<p>在代码<code>dependencies</code>块的末尾添加以下代码。</p>
-<pre class=" language-gradle"><code class="language-gradle">// Room components
-implementation "androidx.room:room-runtime:$rootProject.roomVersion"
-implementation "androidx.room:room-ktx:$rootProject.roomVersion"
-kapt "androidx.room:room-compiler:$rootProject.roomVersion"
-androidTestImplementation "androidx.room:room-testing:$rootProject.roomVersion"
-
-// Lifecycle components
-implementation "androidx.lifecycle:lifecycle-extensions:$rootProject.archLifecycleVersion"
-kapt "androidx.lifecycle:lifecycle-compiler:$rootProject.archLifecycleVersion"
-androidTestImplementation "androidx.arch.core:core-testing:$rootProject.androidxArchVersion"
-
-// ViewModel Kotlin support
-implementation "androidx.lifecycle:lifecycle-viewmodel-ktx:$rootProject.archLifecycleVersion"
-
-// Coroutines
-api "org.jetbrains.kotlinx:kotlinx-coroutines-android:$rootProject.coroutines"
-
-// UI
-implementation "com.google.android.material:material:$rootProject.materialVersion"
-
-// Testing
-androidTestImplementation "androidx.arch.core:core-testing:$rootProject.coreTestingVersion"</code></pre>
-<p>之后再在 <strong>项目的<code>build.gradle</code>(Project)</strong></p>
-<pre class=" language-gradle"><code class="language-gradle">ext {
-    roomVersion = '2.2.1'
-    archLifecycleVersion = '2.2.0-rc02'
-    androidxArchVersion = '2.1.0'
-    coreTestingVersion = "2.1.0"
-    coroutines = '1.3.2'
-    materialVersion = "1.0.0"
-}</code></pre>
-<p>这里也可以去官网找最新的版本号 <strong><a href="https://developer.android.com/topic/libraries/architecture/adding-components.html" target="_blank" rel="noopener">链接</a></strong></p>
-<h2 id="3、创建一个实体"><a href="#3、创建一个实体" class="headerlink" title="3、创建一个实体"></a>3、创建一个实体</h2><p>Room允许您通过Entity创建表。让我们现在开始。  </p>
-<pre class=" language-kotlin"><code class="language-kotlin"><span class="token annotation builtin">@Entity</span><span class="token punctuation">(</span>tableName <span class="token operator">=</span> <span class="token string">"todo_database"</span><span class="token punctuation">)</span>
-<span class="token keyword">data</span> <span class="token keyword">class</span> <span class="token function">Todo</span> <span class="token punctuation">(</span>
-    <span class="token annotation builtin">@PrimaryKey</span><span class="token punctuation">(</span>autoGenerate <span class="token operator">=</span> <span class="token boolean">true</span><span class="token punctuation">)</span> <span class="token keyword">val</span> id<span class="token operator">:</span>Int<span class="token punctuation">,</span>
-    <span class="token annotation builtin">@ColumnInfo</span><span class="token punctuation">(</span>name <span class="token operator">=</span> <span class="token string">"todo_title"</span><span class="token punctuation">)</span> <span class="token keyword">val</span> title<span class="token operator">:</span>String<span class="token punctuation">,</span>
-    <span class="token annotation builtin">@ColumnInfo</span><span class="token punctuation">(</span>name <span class="token operator">=</span> <span class="token string">"todo_content"</span><span class="token punctuation">)</span> <span class="token keyword">val</span> content<span class="token operator">:</span>String
-
-<span class="token punctuation">)</span></code></pre>
-<p>分析以下上述代码中@注释的意思  </p>
+                <h2 id="前言"><a href="#前言" class="headerlink" title="前言"></a>前言</h2><p>之前用的图床是GIthub上的，使用了 jsDelivr 进行加速，详细请见文章  </p>
+<p> <a href="https://www.shanya.world/archives/2fb4d43a.html" target="_blank" rel="noopener">VSCode + Github + Picgo + jsDelivr 搭建稳定快速高效图床</a>  </p>
+<p>但是这样的作法有时候会出点小bug，需要重复上传才行。现发现可以使用Gitee进行图床的搭建，所以水篇文章记录一下（^_^）。</p>
+<h2 id="安装相关软件及扩展"><a href="#安装相关软件及扩展" class="headerlink" title="安装相关软件及扩展"></a>安装相关软件及扩展</h2><ol>
+<li>安装Picgo客户端 <a href="https://github.com/Molunerfinn/PicGo" target="_blank" rel="noopener">下载地址</a></li>
+<li>在Picgo里面安装Gitee扩展插件</li>
+</ol>
+<p>![image-20200616100815072](<a href="https://gitee.com/Shanya/PicBed/raw/master/PicGo" target="_blank" rel="noopener">https://gitee.com/Shanya/PicBed/raw/master/PicGo</a> 配合 Gitee 实现个人博客的高速稳定图床/image-20200616100815072.png)</p>
+<ol start="3">
+<li><p>安装完成之后图床设置这里就会显示gitee</p>
+<p>![image-20200616100948701](<a href="https://gitee.com/Shanya/PicBed/raw/master/PicGo" target="_blank" rel="noopener">https://gitee.com/Shanya/PicBed/raw/master/PicGo</a> 配合 Gitee 实现个人博客的高速稳定图床/image-20200616100948701.png)</p>
+</li>
+</ol>
+<h2 id="注册Gitee账号并创建图床仓库，获取Token"><a href="#注册Gitee账号并创建图床仓库，获取Token" class="headerlink" title="注册Gitee账号并创建图床仓库，获取Token"></a>注册Gitee账号并创建图床仓库，获取Token</h2><ol>
+<li><p>自行注册账号，创建仓库（仓库选公开类型） <a href="https://gitee.com/" target="_blank" rel="noopener">Gitee官网</a></p>
+</li>
+<li><p>在设置中创建私人令牌（Token）自行保存好，它只会在创建的时候显示一次，之后就不再显示，只能重新生成或者创建</p>
+<p>![image-20200616101337300](<a href="https://gitee.com/Shanya/PicBed/raw/master/PicGo" target="_blank" rel="noopener">https://gitee.com/Shanya/PicBed/raw/master/PicGo</a> 配合 Gitee 实现个人博客的高速稳定图床/image-20200616101337300.png)</p>
+</li>
+</ol>
+<h2 id="配置Picgo上的Gitee"><a href="#配置Picgo上的Gitee" class="headerlink" title="配置Picgo上的Gitee"></a>配置Picgo上的Gitee</h2><p>配置如下图</p>
+<p>![image-20200616101610534](<a href="https://gitee.com/Shanya/PicBed/raw/master/PicGo" target="_blank" rel="noopener">https://gitee.com/Shanya/PicBed/raw/master/PicGo</a> 配合 Gitee 实现个人博客的高速稳定图床/image-20200616101610534.png)</p>
+<h2 id="Picgo-图片上传"><a href="#Picgo-图片上传" class="headerlink" title="Picgo 图片上传"></a>Picgo 图片上传</h2><ul>
+<li>操作界面上传</li>
+</ul>
+<p>![image-20200616101700207](<a href="https://gitee.com/Shanya/PicBed/raw/master/PicGo" target="_blank" rel="noopener">https://gitee.com/Shanya/PicBed/raw/master/PicGo</a> 配合 Gitee 实现个人博客的高速稳定图床/image-20200616101700207.png)</p>
+<p>首先一定选中gitee（如果你配置的是其他仓库（如Girhub）自行选择自己的仓库即可）</p>
+<p>可以直接拖拽上传，也可以把图片复制点剪贴板点击 相应按钮上传</p>
 <ul>
-<li><code>@Entity(tableName = "todo_database")</code><br>每一个<code>@Entity</code>类代表一个SQLite表。注释你的类以表明它是一个实体类。如果希望表名与类名不同，则可以指定表名。这个表名为“todo_database”  </li>
-<li><code>@PrimaryKey</code><br>每一个实体都需要一个主键。这里使用<code>autoGenerate = true</code>来自动生成</li>
-<li><code>@ColumnInfo(name = "todo_title")</code><br>如果您希望表中的列名称与成员变量的名称不同，则指定该名称。这将列命名为“todo_title”。</li>
+<li><p>快捷键上传</p>
+<p>Picgo 可以自定义上传快捷键，直接将剪贴板的图片上传</p>
+</li>
 </ul>
-<h2 id="4、创建Dao"><a href="#4、创建Dao" class="headerlink" title="4、创建Dao"></a>4、创建Dao</h2><h3 id="什么是Dao？"><a href="#什么是Dao？" class="headerlink" title="什么是Dao？"></a>什么是Dao？</h3><p>  在DAO（数据访问对象）中，指定SQL查询并将它们与方法调用关联。编译器检查SQL并从便利注释中生成常见查询（例如）的查询@Insert。Room使用DAO为您的代码创建一个干净的API。</p>
-<p>DAO必须是接口或抽象类。</p>
-<p>默认情况下，所有查询必须在单独的线程上执行。</p>
-<p>Room具有协程支持，允许您的查询使用suspend修饰符注释，然后从协程或另一个暂停函数调用。</p>
-<h3 id="编写Dao"><a href="#编写Dao" class="headerlink" title="编写Dao"></a>编写Dao</h3><p>让我们编写一个DAO，它提供以下查询：  </p>
+<p>![image-20200616101929861](<a href="https://gitee.com/Shanya/PicBed/raw/master/PicGo" target="_blank" rel="noopener">https://gitee.com/Shanya/PicBed/raw/master/PicGo</a> 配合 Gitee 实现个人博客的高速稳定图床/image-20200616101929861.png)</p>
+<p>![image-20200616101944084](<a href="https://gitee.com/Shanya/PicBed/raw/master/PicGo" target="_blank" rel="noopener">https://gitee.com/Shanya/PicBed/raw/master/PicGo</a> 配合 Gitee 实现个人博客的高速稳定图床/image-20200616101944084.png)</p>
+<p><strong>至此Picgo搭配Gitee的图床就搭建完了</strong></p>
+<h3 id="使用Typora的Picgo插件"><a href="#使用Typora的Picgo插件" class="headerlink" title="使用Typora的Picgo插件"></a>使用Typora的Picgo插件</h3><ul>
+<li>VSCode里面的PicGo扩展用不了Gitee，可以使用Typora来代替</li>
+<li>并且Typora可以自动将文章上的图片上传至图床</li>
+</ul>
 <ol>
-<li>按字母顺序排列所有标题</li>
-<li>插入一个Todo</li>
-<li>删除所有Todo</li>
-</ol>
-<pre class=" language-kotlin"><code class="language-kotlin"><span class="token annotation builtin">@Dao</span>
-<span class="token keyword">interface</span> TodoDao <span class="token punctuation">{</span>
-    <span class="token annotation builtin">@Query</span><span class="token punctuation">(</span><span class="token string">"SELECT * from todo_database ORDER BY todo_title ASC"</span><span class="token punctuation">)</span>
-    <span class="token keyword">fun</span> <span class="token function">getAlphabetizedTodoList</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">:</span> LiveData<span class="token operator">&lt;</span>List<span class="token operator">&lt;</span>Todo<span class="token operator">></span><span class="token operator">></span>
-
-    <span class="token annotation builtin">@Insert</span><span class="token punctuation">(</span>onConflict <span class="token operator">=</span> OnConflictStrategy<span class="token punctuation">.</span>IGNORE<span class="token punctuation">)</span>
-    suspend <span class="token keyword">fun</span> <span class="token function">insert</span><span class="token punctuation">(</span>todo<span class="token operator">:</span> Todo<span class="token punctuation">)</span>
-
-    <span class="token annotation builtin">@Query</span><span class="token punctuation">(</span><span class="token string">"DELETE FROM todo_database"</span><span class="token punctuation">)</span>
-    suspend <span class="token keyword">fun</span> <span class="token function">deleteAll</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
-<span class="token punctuation">}</span></code></pre>
-<p>让我们来看一下：   </p>
-<ol>
-<li><code>TodoDao</code>是一个接口；Dao必须是接口或者抽象类。</li>
-<li>该<code>@Dao</code>注解表示它是一个Room的Dao类</li>
-<li><code>suspend fun insert(todo: Todo)</code>声明一个暂停功能以插入一个Todo。</li>
-<li>该@Insert注释是一种特殊的DAO方法注释，您无需提供任何SQL！（还有@Delete和@Update注释，用于删除和更新行，但未在此应用中使用它们。）</li>
-<li><code>onConflict = OnConflictStrategy.IGNORE</code>如果冲突策略中选定的Todo与列表中已有的Todo完全相同，则会忽略该单词。</li>
-<li><code>suspend fun deleteAll()</code>声明一个暂停功能以删除所有Todo。</li>
-</ol>
+<li><p>下载 Typora <a href="https://typora.io/" target="_blank" rel="noopener">下载地址</a></p>
+</li>
+<li><p>配置Picgo</p>
 <ul>
-<li>关于<code>@Query</code>的用法有点多且杂查询请自行查阅资料</li>
+<li>进入Typora设置</li>
 </ul>
-<h2 id="5、LiveData类"><a href="#5、LiveData类" class="headerlink" title="5、LiveData类"></a>5、LiveData类</h2><p>数据更改时，通常需要采取一些措施，例如在UI中显示更新的数据。这意味着您必须观察数据，以便在数据更改时可以做出反应。</p>
-<p>根据数据的存储方式，这可能很棘手。观察应用程序多个组件之间的数据更改可以在组件之间创建明确的，严格的依赖路径。这使测试和调试变得非常困难。</p>
-<p>LiveData，用于数据观察的生命周期库类可解决此问题。LiveData在方法描述中使用类型的返回值，然后Room会生成所有必要的代码来更新LiveData数据库。<br>上面的代码块中已有体现，如下</p>
-<pre class=" language-kotlin"><code class="language-kotlin"><span class="token annotation builtin">@Query</span><span class="token punctuation">(</span><span class="token string">"SELECT * from todo_database ORDER BY todo_title ASC"</span><span class="token punctuation">)</span>
-    <span class="token keyword">fun</span> <span class="token function">getAlphabetizedTodoList</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">:</span> LiveData<span class="token operator">&lt;</span>List<span class="token operator">&lt;</span>Todo<span class="token operator">></span><span class="token operator">></span></code></pre>
-<p>在本Demo的后面，将通过Observer 跟踪数据更改。</p>
-<h2 id="7、添加RoomDatabase"><a href="#7、添加RoomDatabase" class="headerlink" title="7、添加RoomDatabase"></a>7、添加RoomDatabase</h2><h3 id="什么是RoomDatabase？"><a href="#什么是RoomDatabase？" class="headerlink" title="什么是RoomDatabase？"></a>什么是RoomDatabase？</h3><ul>
-<li>Room是SQLite数据库之上的数据库层。</li>
-<li>Room负责处理以前使用NET处理的普通任务</li>
-<li>Room使用DAO向其数据库发出查询。</li>
-<li>默认情况下，为避免UI性能下降，Room不允许您在主线程上发出查询。当Room查询返回LiveData时，查询将自动在后台线程上异步运行。</li>
-<li>Room提供了SQLite语句的编译时检查。</li>
-</ul>
-<h3 id="编写RomDatabase"><a href="#编写RomDatabase" class="headerlink" title="编写RomDatabase"></a>编写RomDatabase</h3><p>RoomDatabase类必须是抽象的并且可以扩展RoomDatabase。通常，整个应用程序只需要一个Room数据库实例。</p>
-<p>让我们现在做一个。创建一个名为的Kotlin类文件，WordRoomDatabase并添加以下代码：   </p>
-<pre class=" language-kotlin"><code class="language-kotlin"><span class="token annotation builtin">@Database</span><span class="token punctuation">(</span>entities <span class="token operator">=</span> <span class="token function">arrayOf</span><span class="token punctuation">(</span>Todo<span class="token operator">::</span><span class="token keyword">class</span><span class="token punctuation">)</span><span class="token punctuation">,</span>version <span class="token operator">=</span> <span class="token number">1</span><span class="token punctuation">,</span>exportSchema <span class="token operator">=</span> <span class="token boolean">false</span><span class="token punctuation">)</span>
-<span class="token keyword">abstract</span> <span class="token keyword">class</span> TodoDatabase<span class="token operator">:</span> <span class="token function">RoomDatabase</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
-
-    <span class="token keyword">abstract</span> <span class="token keyword">fun</span> <span class="token function">todoDao</span><span class="token punctuation">(</span><span class="token punctuation">)</span><span class="token operator">:</span> TodoDao
-
-    <span class="token keyword">private</span> <span class="token keyword">class</span> <span class="token function">TodoDatabaseCallback</span><span class="token punctuation">(</span>
-        <span class="token keyword">private</span> <span class="token keyword">val</span> scope<span class="token operator">:</span> CoroutineScope
-    <span class="token punctuation">)</span> <span class="token operator">:</span> RoomDatabase<span class="token punctuation">.</span><span class="token function">Callback</span><span class="token punctuation">(</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
-
-        <span class="token keyword">override</span> <span class="token keyword">fun</span> <span class="token function">onCreate</span><span class="token punctuation">(</span>db<span class="token operator">:</span> SupportSQLiteDatabase<span class="token punctuation">)</span> <span class="token punctuation">{</span>
-            <span class="token keyword">super</span><span class="token punctuation">.</span><span class="token function">onOpen</span><span class="token punctuation">(</span>db<span class="token punctuation">)</span>
-            INSTANCE<span class="token operator">?</span><span class="token punctuation">.</span><span class="token function">let</span> <span class="token punctuation">{</span> database <span class="token operator">-></span>
-                scope<span class="token punctuation">.</span><span class="token function">launch</span> <span class="token punctuation">{</span>
-                    <span class="token keyword">var</span> todoDao <span class="token operator">=</span> database<span class="token punctuation">.</span><span class="token function">todoDao</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
-
-                    <span class="token comment" spellcheck="true">// Delete all content here.</span>
-                    todoDao<span class="token punctuation">.</span><span class="token function">deleteAll</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
-
-                    <span class="token comment" spellcheck="true">// Add sample todos.</span>
-                    <span class="token keyword">var</span> todo <span class="token operator">=</span> <span class="token function">Todo</span><span class="token punctuation">(</span><span class="token number">0</span><span class="token punctuation">,</span><span class="token string">"title"</span><span class="token punctuation">,</span><span class="token string">"content"</span><span class="token punctuation">)</span>
-                    todoDao<span class="token punctuation">.</span><span class="token function">insert</span><span class="token punctuation">(</span>todo<span class="token punctuation">)</span>
-                    todo <span class="token operator">=</span> <span class="token function">Todo</span><span class="token punctuation">(</span><span class="token number">0</span><span class="token punctuation">,</span><span class="token string">"title1"</span><span class="token punctuation">,</span><span class="token string">"content1"</span><span class="token punctuation">)</span>
-                    todoDao<span class="token punctuation">.</span><span class="token function">insert</span><span class="token punctuation">(</span>todo<span class="token punctuation">)</span>
-
-                    <span class="token comment" spellcheck="true">// TODO: Add your own words!</span>
-                    todo <span class="token operator">=</span> <span class="token function">Todo</span><span class="token punctuation">(</span><span class="token number">0</span><span class="token punctuation">,</span><span class="token string">"title2"</span><span class="token punctuation">,</span><span class="token string">"content2"</span><span class="token punctuation">)</span>
-                    todoDao<span class="token punctuation">.</span><span class="token function">insert</span><span class="token punctuation">(</span>todo<span class="token punctuation">)</span>
-                <span class="token punctuation">}</span>
-            <span class="token punctuation">}</span>
-        <span class="token punctuation">}</span>
-    <span class="token punctuation">}</span>
-
-    <span class="token keyword">companion</span> <span class="token keyword">object</span><span class="token punctuation">{</span>
-        <span class="token annotation builtin">@Volatile</span>
-        <span class="token keyword">private</span> <span class="token keyword">var</span> INSTANCE<span class="token operator">:</span> TodoDatabase<span class="token operator">?</span> <span class="token operator">=</span> <span class="token keyword">null</span>
-
-        <span class="token keyword">fun</span> <span class="token function">getDatabase</span><span class="token punctuation">(</span>context<span class="token operator">:</span> Context<span class="token punctuation">,</span>scope<span class="token operator">:</span> CoroutineScope<span class="token punctuation">)</span><span class="token operator">:</span> TodoDatabase<span class="token punctuation">{</span>
-            <span class="token keyword">val</span> tempInstance <span class="token operator">=</span> INSTANCE
-            <span class="token keyword">if</span> <span class="token punctuation">(</span>tempInstance <span class="token operator">!=</span> <span class="token keyword">null</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
-                <span class="token keyword">return</span> tempInstance
-            <span class="token punctuation">}</span>
-            <span class="token function">synchronized</span><span class="token punctuation">(</span><span class="token keyword">this</span><span class="token punctuation">)</span> <span class="token punctuation">{</span>
-                <span class="token keyword">val</span> instance <span class="token operator">=</span> Room<span class="token punctuation">.</span><span class="token function">databaseBuilder</span><span class="token punctuation">(</span>
-                    context<span class="token punctuation">.</span>applicationContext<span class="token punctuation">,</span>
-                    TodoDatabase<span class="token operator">::</span><span class="token keyword">class</span><span class="token punctuation">.</span>java<span class="token punctuation">,</span>
-                    <span class="token string">"todo_database"</span>
-                <span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">addCallback</span><span class="token punctuation">(</span><span class="token function">TodoDatabaseCallback</span><span class="token punctuation">(</span>scope<span class="token punctuation">)</span><span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">build</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
-                INSTANCE <span class="token operator">=</span> instance
-                <span class="token keyword">return</span> instance
-            <span class="token punctuation">}</span>
-        <span class="token punctuation">}</span>
-    <span class="token punctuation">}</span>
-<span class="token punctuation">}</span></code></pre>
-<p>让我们来看一下代码：</p>
+<p>![image-20200616102346853](<a href="https://gitee.com/Shanya/PicBed/raw/master/PicGo" target="_blank" rel="noopener">https://gitee.com/Shanya/PicBed/raw/master/PicGo</a> 配合 Gitee 实现个人博客的高速稳定图床/image-20200616102346853.png)</p>
 <ul>
-<li><code>Room</code>的数据库类必须是<code>abstract</code>并且扩展<code>RoomDatabase</code></li>
-<li>您使用注释该类为Room数据库，<code>@Database</code>并使用注释参数声明属于数据库的实体并设置版本号。每个实体对应一个将在数据库中创建的表。数据库迁移不在此代码实验室的范围内，因此<code>exportSchema</code>在此处设置为<code>false</code>以避免生成警告。在实际的应用程序中，您应该考虑为Room设置目录以用于导出架构，以便可以将当前架构签入版本控制系统。</li>
-<li>您通过为每个<code>@Dao</code>创建一个抽象的“getter”方法来使数据库提供其DAO。</li>
-<li>我们定义了<code>singleton</code>，<code>TodoRoomDatabase</code>,以防止同时打开数据库的多个实例。</li>
-<li><code>getDatabase</code>返回单例。它将在首次访问数据库时使用Room的数据库构建器<code>RoomDatabase</code>在类的应用程序上下文中创建一个对象<code>TodoRoomDatabase</code>并将其命名，从而创建数据库”todo_database”。</li>
+<li><p>参考图片内容设置</p>
+<p>![image-20200616102521308](<a href="https://gitee.com/Shanya/PicBed/raw/master/PicGo" target="_blank" rel="noopener">https://gitee.com/Shanya/PicBed/raw/master/PicGo</a> 配合 Gitee 实现个人博客的高速稳定图床/image-20200616102521308.png)</p>
+<ul>
+<li>该设置完成之后，直接将图片复制进Typora 的编辑区即可完成图片的上传，并且文章使用的图片Url就是图床相应的Url</li>
 </ul>
-<h2 id="8、创建Repository"><a href="#8、创建Repository" class="headerlink" title="8、创建Repository"></a>8、创建Repository</h2><h3 id="什么是Repository？"><a href="#什么是Repository？" class="headerlink" title="什么是Repository？"></a>什么是Repository？</h3><p>存储库类抽象了对多个数据源的访问。该存储库不是体系结构组件库的一部分，而是建议的代码分离和体系结构最佳实践。Repository类提供了一个干净的API，用于对应用程序其余部分的数据访问。</p>
-<p><img src="https://imgconvert.csdnimg.cn/aHR0cHM6Ly9yYXcuZ2l0aHVidXNlcmNvbnRlbnQuY29tL1NoYW55YWxpdXgvUGljQmVkL21hc3Rlci9pbWFnZXNfZm9yX2Jsb2dzL0FuZHJvaWQtUm9vbS1CeS1Lb3RsaW4yMDIwLTEtMjgtOS04LTU2?x-oss-process=image/format,png" alt="Android-Room-By-Kotlin2020-1-28-9-8-56"></p>
-<h3 id="编写Repository"><a href="#编写Repository" class="headerlink" title="编写Repository"></a>编写Repository</h3><p>创建一个名为的Kotlin类文件<code>TodoRepository</code>，并将以下代码粘贴到其中：</p>
-<pre class=" language-kotlin"><code class="language-kotlin"><span class="token keyword">class</span> <span class="token function">TodoRepository</span><span class="token punctuation">(</span><span class="token keyword">private</span> <span class="token keyword">val</span> todoDao<span class="token operator">:</span> TodoDao<span class="token punctuation">)</span> <span class="token punctuation">{</span>
-
-    <span class="token keyword">val</span> allTodo<span class="token operator">:</span> LiveData<span class="token operator">&lt;</span>List<span class="token operator">&lt;</span>Todo<span class="token operator">></span><span class="token operator">></span> <span class="token operator">=</span> todoDao<span class="token punctuation">.</span><span class="token function">getAlphabetizedTodoList</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
-
-    suspend <span class="token keyword">fun</span> <span class="token function">insert</span><span class="token punctuation">(</span>todo<span class="token operator">:</span> Todo<span class="token punctuation">)</span><span class="token punctuation">{</span>
-        todoDao<span class="token punctuation">.</span><span class="token function">insert</span><span class="token punctuation">(</span>todo<span class="token punctuation">)</span>
-    <span class="token punctuation">}</span>
-<span class="token punctuation">}</span></code></pre>
-<p>主要代码：   </p>
-<ol>
-<li>DAO被传递到存储库构造函数，而不是整个数据库。这是因为它只需要访问DAO，因为DAO包含数据库的所有读/写方法。无需将整个数据库公开到存储库。</li>
-<li><code>Todo</code>列表是公共财产。通过<code>LiveData</code>从<code>Room</code>获取单词列表进行初始化；之所以可以这样做，是因为我们定义了<code>getAlphabetizedTodoList</code>返回<code>LiveData</code>的方法。<code>Room</code>在单独的线程上执行所有查询。然后，当<code>LiveData</code>数据已更改时，<code>observed</code> 将在主线程上通知观察者。</li>
-<li>该<code>suspend</code>修饰符告诉编译器，这需要从协同程序或其他暂停功能调用。</li>
+</li>
+</ul>
+</li>
 </ol>
-<h2 id="9、创建ViewModel"><a href="#9、创建ViewModel" class="headerlink" title="9、创建ViewModel"></a>9、创建ViewModel</h2><h3 id="什么是VIewModel？"><a href="#什么是VIewModel？" class="headerlink" title="什么是VIewModel？"></a>什么是VIewModel？</h3><p><code>ViewModel</code>的作用是提供数据的UI和生存的配置更改。<code>ViewModel</code>充当存储库和UI之间的通信中心。您还可以使用<code>ViewModel</code>在片段之间共享数据。<code>ViewModel</code>是生命周期库的一部分。</p>
-<h3 id="为什么要使用ViewModel"><a href="#为什么要使用ViewModel" class="headerlink" title="为什么要使用ViewModel"></a>为什么要使用ViewModel</h3><p><code>ViewModel</code>以对生命周期敏感的方式保存应用程序的UI数据，以在配置更改后生存下来。将应用程序的UI数据<code>Activity</code>类与<code>Fragment</code>类分开，可以更好地遵循单一职责原则：您的活动和片段负责将数据绘制到屏幕上，而您则<code>ViewModel</code>可以负责保存和处理UI所需的所有数据。<br>在中<code>ViewModel</code>，<code>LiveData</code>用于UI将使用或显示的可变数据。使用LiveData有几个好处：  </p>
-<ol>
-<li>您可以将观察者放在数据上（而不是轮询更改），并且仅<br>在数据实际更改时才更新UI。</li>
-<li>资源库和用户界面由完全分隔.</li>
-<li>没有来自的数据库调用<code>ViewModel</code>（这全部在存储库中处理），使代码更具可测试性。</li>
-</ol>
-<h3 id="viewModelScope"><a href="#viewModelScope" class="headerlink" title="viewModelScope"></a>viewModelScope</h3><p>在Kotlin，所有协程都在内运行<code>CoroutineScope</code>。示波器通过其工作控制协程的生命周期。取消合并范围的作业时，它将取消在该合并范围内启动的所有协程。  </p>
-<p>AndroidX <code>lifecycle-viewmodel-ktx</code>库添加了<code>viewModelScope</code>类的扩展功能<code>ViewModel</code>，使您能够使用范围。</p>
-<h3 id="实现ViewModel"><a href="#实现ViewModel" class="headerlink" title="实现ViewModel"></a>实现ViewModel</h3><p>为此创建一个Kotlin类文件，并添加以下代码：</p>
-<pre class=" language-kotlin"><code class="language-kotlin"><span class="token keyword">class</span> <span class="token function">TodoViewModel</span><span class="token punctuation">(</span>application<span class="token operator">:</span> Application<span class="token punctuation">)</span><span class="token operator">:</span> <span class="token function">AndroidViewModel</span><span class="token punctuation">(</span>application<span class="token punctuation">)</span> <span class="token punctuation">{</span>
-
-    <span class="token keyword">private</span> <span class="token keyword">val</span> repository<span class="token operator">:</span> TodoRepository
-    <span class="token keyword">val</span> allTodo<span class="token operator">:</span> LiveData<span class="token operator">&lt;</span>List<span class="token operator">&lt;</span>Todo<span class="token operator">></span><span class="token operator">></span>
-
-    <span class="token keyword">init</span> <span class="token punctuation">{</span>
-        <span class="token keyword">val</span> wordsDao <span class="token operator">=</span> TodoDatabase<span class="token punctuation">.</span><span class="token function">getDatabase</span><span class="token punctuation">(</span>application<span class="token punctuation">,</span>viewModelScope<span class="token punctuation">)</span><span class="token punctuation">.</span><span class="token function">todoDao</span><span class="token punctuation">(</span><span class="token punctuation">)</span>
-        repository <span class="token operator">=</span> <span class="token function">TodoRepository</span><span class="token punctuation">(</span>wordsDao<span class="token punctuation">)</span>
-        allTodo <span class="token operator">=</span> repository<span class="token punctuation">.</span>allTodo
-    <span class="token punctuation">}</span>
-
-    <span class="token keyword">fun</span> <span class="token function">insert</span><span class="token punctuation">(</span>todo<span class="token operator">:</span> Todo<span class="token punctuation">)</span> <span class="token operator">=</span> viewModelScope<span class="token punctuation">.</span><span class="token function">launch</span> <span class="token punctuation">{</span>
-        repository<span class="token punctuation">.</span><span class="token function">insert</span><span class="token punctuation">(</span>todo<span class="token punctuation">)</span>
-    <span class="token punctuation">}</span>
-<span class="token punctuation">}</span></code></pre>
-<h2 id="10、最后"><a href="#10、最后" class="headerlink" title="10、最后"></a>10、最后</h2><p>现在我们只要调用ViewModel里面的inset方法即可插入数据了。</p>
-<p>具体的测试界面（RecyclerView等）代码见下方Github连接。</p>
-<p><strong><a href="https://github.com/Shanyaliux/KotlinRoomDemo" target="_blank" rel="noopener">Github仓库</a></strong></p>
 <script>
         document.querySelectorAll('.github-emoji')
           .forEach(el => {
@@ -815,7 +661,7 @@ androidTestImplementation "androidx.arch.core:core-testing:$rootProject.coreTest
                     </i>
                 </span>
                 <span class="reprint-info">
-                    <a href="https://shanya.world/archives/e6cb5eee.html">https://shanya.world/archives/e6cb5eee.html</a>
+                    <a href="https://shanya.world/archives/c77f2ba5.html">https://shanya.world/archives/c77f2ba5.html</a>
                 </span>
             </div>
             <div class="reprint__notice">
@@ -853,16 +699,24 @@ androidTestImplementation "androidx.arch.core:core-testing:$rootProject.coreTest
                     
                         <div class="article-tag">
                             
-                                <a href="/tags/Android/">
-                                    <span class="chip bg-color">Android</span>
+                                <a href="/tags/hexo/">
+                                    <span class="chip bg-color">hexo</span>
                                 </a>
                             
-                                <a href="/tags/Kotlin/">
-                                    <span class="chip bg-color">Kotlin</span>
+                                <a href="/tags/%E5%9B%BE%E5%BA%8A/">
+                                    <span class="chip bg-color">图床</span>
                                 </a>
                             
-                                <a href="/tags/Room/">
-                                    <span class="chip bg-color">Room</span>
+                                <a href="/tags/Gitee/">
+                                    <span class="chip bg-color">Gitee</span>
+                                </a>
+                            
+                                <a href="/tags/Picgo/">
+                                    <span class="chip bg-color">Picgo</span>
+                                </a>
+                            
+                                <a href="/tags/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/">
+                                    <span class="chip bg-color">个人博客</span>
                                 </a>
                             
                         </div>
@@ -1033,7 +887,7 @@ androidTestImplementation "androidx.arch.core:core-testing:$rootProject.coreTest
         repo: 'comment',
         owner: 'Shanyaliux',
         admin: "Shanyaliux",
-        id: '2020-04-07T16-50-14',
+        id: '2020-06-16T09-55-56',
         distractionFreeMode: false  // Facebook-like distraction free mode
     });
 
@@ -1057,54 +911,64 @@ androidTestImplementation "androidx.arch.core:core-testing:$rootProject.coreTest
 <article id="prenext-posts" class="prev-next articles">
     <div class="row article-row">
         
-        <div class="article col s12 m6" data-aos="fade-up">
+        <div class="article col s12 m6" data-aos="fade-up" data-aos="fade-up">
             <div class="article-badge left-badge text-color">
-                <i class="fas fa-chevron-left"></i>&nbsp;上一篇</div>
+                <i class="far fa-dot-circle"></i>&nbsp;本篇
+            </div>
             <div class="card">
-                <a href="/archives/39c4da83.html">
+                <a href="/archives/c77f2ba5.html">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/17.jpg" class="responsive-img" alt=" Android侧边栏Kotlin实现">
+                        <img src="/medias/featureimages/23.jpg" class="responsive-img" alt="PicGo 配合 Gitee 实现个人博客的高速稳定图床">
                         
-                        <span class="card-title"> Android侧边栏Kotlin实现</span>
+                        <span class="card-title">PicGo 配合 Gitee 实现个人博客的高速稳定图床</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            Android侧边栏Kotlin实现
+                            PicGo 配合 Gitee 实现个人博客的高速稳定图床
                         
                     </div>
                     <div class="publish-info">
-                        <span class="publish-date">
-                            <i class="far fa-clock fa-fw icon-date"></i>2020-04-07
-                        </span>
+                            <span class="publish-date">
+                                <i class="far fa-clock fa-fw icon-date"></i>2020-06-16
+                            </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
                             
-                            <a href="/categories/Android/" class="post-category">
-                                    Android
-                                </a>
-                            
-                            <a href="/categories/Android/Kotlin/" class="post-category">
-                                    Kotlin
+                            <a href="/categories/hexo/" class="post-category">
+                                    hexo
                                 </a>
                             
                             
                         </span>
                     </div>
                 </div>
+
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/Android/">
-                        <span class="chip bg-color">Android</span>
+                    <a href="/tags/hexo/">
+                        <span class="chip bg-color">hexo</span>
                     </a>
                     
-                    <a href="/tags/Kotlin/">
-                        <span class="chip bg-color">Kotlin</span>
+                    <a href="/tags/%E5%9B%BE%E5%BA%8A/">
+                        <span class="chip bg-color">图床</span>
+                    </a>
+                    
+                    <a href="/tags/Gitee/">
+                        <span class="chip bg-color">Gitee</span>
+                    </a>
+                    
+                    <a href="/tags/Picgo/">
+                        <span class="chip bg-color">Picgo</span>
+                    </a>
+                    
+                    <a href="/tags/%E4%B8%AA%E4%BA%BA%E5%8D%9A%E5%AE%A2/">
+                        <span class="chip bg-color">个人博客</span>
                     </a>
                     
                 </div>
@@ -1118,35 +982,31 @@ androidTestImplementation "androidx.arch.core:core-testing:$rootProject.coreTest
                 下一篇&nbsp;<i class="fas fa-chevron-right"></i>
             </div>
             <div class="card">
-                <a href="/archives/36ec9a1c.html">
+                <a href="/archives/8a378722.html">
                     <div class="card-image">
                         
                         
-                        <img src="/medias/featureimages/6.jpg" class="responsive-img" alt="Android Kotlin Handler&amp;Timer（附Demo 源码）">
+                        <img src="/medias/featureimages/13.jpg" class="responsive-img" alt="使用v2ray实现科学上网">
                         
-                        <span class="card-title">Android Kotlin Handler&amp;Timer（附Demo 源码）</span>
+                        <span class="card-title">使用v2ray实现科学上网</span>
                     </div>
                 </a>
                 <div class="card-content article-content">
                     <div class="summary block-with-text">
                         
-                            Android Kotlin Handler&Timer（附Demo 源码）
+                            使用v2ray实现科学上网
                         
                     </div>
                     <div class="publish-info">
                             <span class="publish-date">
-                                <i class="far fa-clock fa-fw icon-date"></i>2020-04-07
+                                <i class="far fa-clock fa-fw icon-date"></i>2020-06-06
                             </span>
                         <span class="publish-author">
                             
                             <i class="fas fa-bookmark fa-fw icon-category"></i>
                             
-                            <a href="/categories/Android/" class="post-category">
-                                    Android
-                                </a>
-                            
-                            <a href="/categories/Android/Kotlin/" class="post-category">
-                                    Kotlin
+                            <a href="/categories/v2ray/" class="post-category">
+                                    v2ray
                                 </a>
                             
                             
@@ -1156,20 +1016,28 @@ androidTestImplementation "androidx.arch.core:core-testing:$rootProject.coreTest
                 
                 <div class="card-action article-tags">
                     
-                    <a href="/tags/Android/">
-                        <span class="chip bg-color">Android</span>
+                    <a href="/tags/v2ray/">
+                        <span class="chip bg-color">v2ray</span>
                     </a>
                     
-                    <a href="/tags/Kotlin/">
-                        <span class="chip bg-color">Kotlin</span>
+                    <a href="/tags/VPN/">
+                        <span class="chip bg-color">VPN</span>
                     </a>
                     
-                    <a href="/tags/Handler/">
-                        <span class="chip bg-color">Handler</span>
+                    <a href="/tags/%E7%A7%91%E5%AD%A6%E4%B8%8A%E7%BD%91/">
+                        <span class="chip bg-color">科学上网</span>
                     </a>
                     
-                    <a href="/tags/Timer/">
-                        <span class="chip bg-color">Timer</span>
+                    <a href="/tags/vultr/">
+                        <span class="chip bg-color">vultr</span>
+                    </a>
+                    
+                    <a href="/tags/vps/">
+                        <span class="chip bg-color">vps</span>
+                    </a>
+                    
+                    <a href="/tags/%E7%BF%BB%E5%A2%99/">
+                        <span class="chip bg-color">翻墙</span>
                     </a>
                     
                 </div>
