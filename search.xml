@@ -4,6 +4,37 @@
   
     
     <entry>
+      <title>自定义计时控件 Chronometer</title>
+      <link href="/archives/a0684b30.html"/>
+      <url>/archives/a0684b30.html</url>
+      
+        <content type="html"><![CDATA[<h1 id="Chronometer"><a href="#Chronometer" class="headerlink" title="Chronometer"></a>Chronometer</h1><p>一个可以用来计时的控件，支持自定义时间间隔，多种显示格式的切换。  </p><p><a href="https://github.com/Shanyaliux/Chronometers" target="_blank" rel="noopener">Github仓库地址</a></p><p><a href="https://gitee.com/Shanya/Chronometers" target="_blank" rel="noopener">Gitee仓库地址</a></p><p><a href="https://www.shanya.world/" target="_blank" rel="noopener">我的个人主页</a></p><h2 id="效果演示"><a href="#效果演示" class="headerlink" title="效果演示"></a>效果演示</h2><p><img src="https://gitee.com/Shanya/PicBed/raw/master/Chronometer/demo.gif" alt=""></p><h2 id="如何使用"><a href="#如何使用" class="headerlink" title="如何使用"></a>如何使用</h2><h3 id="添加依赖"><a href="#添加依赖" class="headerlink" title="添加依赖"></a>添加依赖</h3><hr><ul><li>在根目录的 <code>build.gralde</code> 添加以下代码：</li></ul><pre class=" language-groovy"><code class="language-groovy">allprojects <span class="token punctuation">{</span>    repositories <span class="token punctuation">{</span>    <span class="token comment" spellcheck="true">//...省略原有代码</span>    maven <span class="token punctuation">{</span> url <span class="token string">'https://jitpack.io'</span> <span class="token punctuation">}</span>    <span class="token punctuation">}</span><span class="token punctuation">}</span></code></pre><ul><li>在app目录的 <code>build.gralde</code> 添加以下代码：</li></ul><pre class=" language-groovy"><code class="language-groovy">dependencies <span class="token punctuation">{</span>    <span class="token comment" spellcheck="true">//...省略原有代码</span>    implementation <span class="token string">'com.gitee.Shanya:Chronometers:V1.0.0'</span><span class="token punctuation">}</span></code></pre><h3 id="常量及公共方法说明"><a href="#常量及公共方法说明" class="headerlink" title="常量及公共方法说明"></a>常量及公共方法说明</h3><hr><h4 id="摘要"><a href="#摘要" class="headerlink" title="摘要"></a>摘要</h4><table><thead><tr><th align="left">常量</th><th></th></tr></thead><tbody><tr><td align="left">int</td><td>DAYS_HOURS_MINUTES_SECONDS</td></tr><tr><td align="left">int</td><td>HOURS_MINUTES_SECONDS</td></tr><tr><td align="left">int</td><td>MINUTES_SECONDS</td></tr><tr><td align="left">int</td><td>SECONDS</td></tr></tbody></table><table><thead><tr><th>公共方法</th><th></th></tr></thead><tbody><tr><td>void</td><td>setInterval(ms:Long)</td></tr><tr><td>void</td><td>setTimeType(timeType: Int)</td></tr><tr><td>void</td><td>setTime(ms: Long)</td></tr><tr><td>void</td><td>start()</td></tr><tr><td>void</td><td>stop()</td></tr></tbody></table><h4 id="常数"><a href="#常数" class="headerlink" title="常数"></a>常数</h4><hr><ul><li><p><strong>DAYS_HOURS_MINUTES_SECONDS</strong>  </p><ul><li>显示格式为： xx 天 xx 时 xx 分 xx 秒</li></ul></li><li><p><strong>HOURS_MINUTES_SECONDS</strong></p><ul><li>显示格式为： xx 时 xx 分 xx 秒</li></ul></li><li><p><strong>MINUTES_SECONDS</strong></p><ul><li>显示格式为： xx 分 xx 秒</li></ul></li><li><p><strong>SECONDS</strong></p><ul><li>显示格式为： xx 秒</li></ul></li></ul><h4 id="公共方法"><a href="#公共方法" class="headerlink" title="公共方法"></a>公共方法</h4><hr><ul><li><p>setInterval(ms:Long)</p><ul><li><p>设置计时器的计时间隔，默认间隔为 1秒</p></li><li><p>例如：间隔 1秒 </p><pre class=" language-kotlin"><code class="language-kotlin">chronometer<span class="token punctuation">.</span><span class="token function">setInterval</span><span class="token punctuation">(</span><span class="token number">1000</span><span class="token punctuation">)</span></code></pre></li></ul></li></ul><ul><li><p>setTimeType(timeType: Int)</p><ul><li><p>设置显示格式，默认显示格式为： xx 天 xx 时 xx 分 xx 秒</p></li><li><p>例如： 显示 xx 秒   </p></li></ul><pre class=" language-kotlin"><code class="language-kotlin">chronometer<span class="token punctuation">.</span><span class="token function">setTimeType</span><span class="token punctuation">(</span>Chronometer<span class="token punctuation">.</span>SECONDS<span class="token punctuation">)</span></code></pre></li></ul><ul><li><p>setTime(ms: Long)</p><ul><li><p>设置计时器的初值，默认初值时当前时间</p></li><li><p>例如： 设置 2020/6/17 13:20   </p><pre class=" language-kotlin"><code class="language-kotlin"><span class="token keyword">val</span> simpleDateFormat <span class="token operator">=</span> <span class="token function">SimpleDateFormat</span><span class="token punctuation">(</span><span class="token string">"yyyy/MM/dd HH:mm"</span><span class="token punctuation">)</span><span class="token keyword">val</span> date <span class="token operator">=</span> simpleDateFormat<span class="token punctuation">.</span><span class="token function">parse</span><span class="token punctuation">(</span><span class="token string">"2020/6/17 13:20"</span><span class="token punctuation">)</span>chronometer<span class="token punctuation">.</span><span class="token function">setTime</span><span class="token punctuation">(</span>date<span class="token punctuation">.</span>time<span class="token punctuation">)</span></code></pre></li></ul></li><li><p>start()</p><ul><li><p>计时器开始计时</p></li><li><p>例如：</p><pre class=" language-kotlin"><code class="language-kotlin">chronometer<span class="token punctuation">.</span><span class="token function">start</span><span class="token punctuation">(</span><span class="token punctuation">)</span></code></pre></li></ul></li></ul><ul><li><p>stop()</p><ul><li><p>计时器停止计时</p></li><li><p>例如：</p><pre class=" language-kotlin"><code class="language-kotlin">chronometer<span class="token punctuation">.</span><span class="token function">stop</span><span class="token punctuation">(</span><span class="token punctuation">)</span></code></pre></li></ul></li></ul><script>        document.querySelectorAll('.github-emoji')          .forEach(el => {            if (!el.dataset.src) { return; }            const img = document.createElement('img');            img.style = 'display:none !important;';            img.src = el.dataset.src;            img.addEventListener('error', () => {              img.remove();              el.style.color = 'inherit';              el.style.backgroundImage = 'none';              el.style.background = 'none';            });            img.addEventListener('load', () => {              img.remove();            });            document.body.appendChild(img);          });      </script>]]></content>
+      
+      
+      <categories>
+          
+          <category> Android </category>
+          
+      </categories>
+      
+      
+        <tags>
+            
+            <tag> Android </tag>
+            
+            <tag> Chronometer </tag>
+            
+            <tag> 计时器 </tag>
+            
+            <tag> 自定义Android控件 </tag>
+            
+        </tags>
+      
+    </entry>
+    
+    
+    
+    <entry>
       <title>PicGo 配合 Gitee 实现个人博客的高速稳定图床</title>
       <link href="/archives/c77f2ba5.html"/>
       <url>/archives/c77f2ba5.html</url>
@@ -94,11 +125,11 @@
             
             <tag> Java </tag>
             
-            <tag> SerialPort </tag>
-            
             <tag> jitpack </tag>
             
             <tag> Bluetooth </tag>
+            
+            <tag> SerialPort </tag>
             
         </tags>
       
@@ -187,11 +218,11 @@
             
             <tag> hexo </tag>
             
-            <tag> 图床 </tag>
-            
             <tag> VSCode </tag>
             
             <tag> jsDelivr </tag>
+            
+            <tag> 图床 </tag>
             
         </tags>
       
@@ -650,9 +681,9 @@
             
             <tag> Java </tag>
             
-            <tag> Blueteeth </tag>
-            
             <tag> SerialPort </tag>
+            
+            <tag> Blueteeth </tag>
             
         </tags>
       
