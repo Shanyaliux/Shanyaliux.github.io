@@ -127,9 +127,9 @@
             
             <tag> jitpack </tag>
             
-            <tag> Bluetooth </tag>
-            
             <tag> SerialPort </tag>
+            
+            <tag> Bluetooth </tag>
             
         </tags>
       
@@ -218,11 +218,11 @@
             
             <tag> hexo </tag>
             
+            <tag> 图床 </tag>
+            
             <tag> VSCode </tag>
             
             <tag> jsDelivr </tag>
-            
-            <tag> 图床 </tag>
             
         </tags>
       
@@ -598,7 +598,7 @@
       
       <categories>
           
-          <category> Andorid </category>
+          <category> Android </category>
           
           <category> Java </category>
           
@@ -681,9 +681,9 @@
             
             <tag> Java </tag>
             
-            <tag> SerialPort </tag>
-            
             <tag> Blueteeth </tag>
+            
+            <tag> SerialPort </tag>
             
         </tags>
       
