@@ -152,9 +152,9 @@
     
       <category term="Java" scheme="https://shanya.world/tags/Java/"/>
     
-      <category term="SerialPort" scheme="https://shanya.world/tags/SerialPort/"/>
-    
       <category term="jitpack" scheme="https://shanya.world/tags/jitpack/"/>
+    
+      <category term="SerialPort" scheme="https://shanya.world/tags/SerialPort/"/>
     
       <category term="Bluetooth" scheme="https://shanya.world/tags/Bluetooth/"/>
     
@@ -538,11 +538,11 @@
     <link href="https://shanya.world/archives/a7b639d4.html"/>
     <id>https://shanya.world/archives/a7b639d4.html</id>
     <published>2020-04-07T08:48:20.000Z</published>
-    <updated>2020-04-12T13:03:46.130Z</updated>
+    <updated>2020-06-24T15:54:08.432Z</updated>
     
     <summary type="html">
     
-      &lt;p&gt;Android中的定时任务一般有两种实现方式，一种是使用 Java API 里提供的 Timer 类，一种是使用 Android 的 Alarm 机制。这两种方式在多数情况下都能实现类似的效果，但 Timer 有一个明显的短板，它并不适用于那些需要长期在后台运行的定时任务。我们都知道，为了能让电池更加耐用，每种手机都会有自己的休眠策略，Android 手机就会在长时间不操作的情况下自动让 CPU 进入到睡眠状态，这就有可能导致 Timer 中的定时任务无法正常运行。而 Alarm 则具有唤醒 CPU 的功能，它可以在需要执行定时任务的时候大吼一声：“小UU，不要跟我 bbll ，赶紧给我起来干活，不然你看我扎不扎你就完了。”&lt;br&gt;需要注意，这里唤醒 CPU 和唤醒屏幕完全不是一个概念，千万不要混淆。&lt;/p&gt;
+      Android AlarmManager实现定时任务（也就是闹钟）  附Demo源码
     
     </summary>
     
