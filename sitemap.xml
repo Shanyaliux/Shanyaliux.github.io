@@ -2,6 +2,34 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://shanya.world/link/index.html</loc>
+    
+    <lastmod>2020-06-24T15:13:01.872Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://shanya.world/about/index.html</loc>
+    
+    <lastmod>2020-06-24T15:00:15.956Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://shanya.world/contact/index.html</loc>
+    
+    <lastmod>2020-06-24T13:53:25.256Z</lastmod>
+    
+  </url>
+  
+  <url>
+    <loc>https://shanya.world/messageboard/index.html</loc>
+    
+    <lastmod>2020-06-24T12:00:42.123Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://shanya.world/archives/d7928bcd.html</loc>
     
     <lastmod>2020-06-18T13:34:16.443Z</lastmod>
@@ -163,13 +191,6 @@
   </url>
   
   <url>
-    <loc>https://shanya.world/contact/index.html</loc>
-    
-    <lastmod>2020-04-12T09:15:57.056Z</lastmod>
-    
-  </url>
-  
-  <url>
     <loc>https://shanya.world/404/index.html</loc>
     
     <lastmod>2020-04-12T07:20:55.488Z</lastmod>
@@ -187,13 +208,6 @@
     <loc>https://shanya.world/tags/index.html</loc>
     
     <lastmod>2020-04-12T06:20:44.235Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://shanya.world/about/index.html</loc>
-    
-    <lastmod>2020-04-12T06:19:56.856Z</lastmod>
     
   </url>
   
