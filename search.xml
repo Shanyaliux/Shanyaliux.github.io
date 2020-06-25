@@ -24,10 +24,6 @@
             
             <tag> Chronometer </tag>
             
-            <tag> 计时器 </tag>
-            
-            <tag> 自定义Android控件 </tag>
-            
         </tags>
       
     </entry>
@@ -52,14 +48,6 @@
         <tags>
             
             <tag> hexo </tag>
-            
-            <tag> 图床 </tag>
-            
-            <tag> Gitee </tag>
-            
-            <tag> Picgo </tag>
-            
-            <tag> 个人博客 </tag>
             
         </tags>
       
@@ -87,14 +75,6 @@
             <tag> v2ray </tag>
             
             <tag> VPN </tag>
-            
-            <tag> 科学上网 </tag>
-            
-            <tag> vultr </tag>
-            
-            <tag> vps </tag>
-            
-            <tag> 翻墙 </tag>
             
         </tags>
       
@@ -127,10 +107,6 @@
             
             <tag> SerialPort </tag>
             
-            <tag> jitpack </tag>
-            
-            <tag> Bluetooth </tag>
-            
         </tags>
       
     </entry>
@@ -155,8 +131,6 @@
         <tags>
             
             <tag> Android </tag>
-            
-            <tag> jitpack </tag>
             
         </tags>
       
@@ -187,11 +161,7 @@
             
             <tag> Java </tag>
             
-            <tag> jitpack </tag>
-            
             <tag> OkHttp </tag>
-            
-            <tag> Download </tag>
             
         </tags>
       
@@ -217,12 +187,6 @@
         <tags>
             
             <tag> hexo </tag>
-            
-            <tag> 图床 </tag>
-            
-            <tag> VSCode </tag>
-            
-            <tag> jsDelivr </tag>
             
         </tags>
       
@@ -305,8 +269,6 @@
             
             <tag> Kotlin </tag>
             
-            <tag> permission </tag>
-            
         </tags>
       
     </entry>
@@ -335,10 +297,6 @@
             <tag> Android </tag>
             
             <tag> Kotlin </tag>
-            
-            <tag> ShimmerLayout </tag>
-            
-            <tag> Glide </tag>
             
         </tags>
       
@@ -369,8 +327,6 @@
             
             <tag> Kotlin </tag>
             
-            <tag> SwipeRefreshLayout </tag>
-            
         </tags>
       
     </entry>
@@ -399,10 +355,6 @@
             <tag> Android </tag>
             
             <tag> Kotlin </tag>
-            
-            <tag> Json </tag>
-            
-            <tag> Volley </tag>
             
         </tags>
       
@@ -487,8 +439,6 @@
             
             <tag> Kotlin </tag>
             
-            <tag> Room </tag>
-            
         </tags>
       
     </entry>
@@ -518,10 +468,6 @@
             
             <tag> Kotlin </tag>
             
-            <tag> Handler </tag>
-            
-            <tag> Timer </tag>
-            
         </tags>
       
     </entry>
@@ -550,8 +496,6 @@
             <tag> Android </tag>
             
             <tag> Java </tag>
-            
-            <tag> AlarmManager </tag>
             
         </tags>
       
@@ -611,12 +555,6 @@
             
             <tag> Java </tag>
             
-            <tag> ViewModel </tag>
-            
-            <tag> DataBinding </tag>
-            
-            <tag> Navigation </tag>
-            
         </tags>
       
     </entry>
@@ -646,12 +584,6 @@
             
             <tag> Java </tag>
             
-            <tag> ViewModel </tag>
-            
-            <tag> LiveData </tag>
-            
-            <tag> DataBingding </tag>
-            
         </tags>
       
     </entry>
@@ -680,8 +612,6 @@
             <tag> Android </tag>
             
             <tag> Java </tag>
-            
-            <tag> Blueteeth </tag>
             
             <tag> SerialPort </tag>
             
