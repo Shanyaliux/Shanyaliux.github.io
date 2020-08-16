@@ -2,6 +2,13 @@
 <urlset xmlns="http://www.sitemaps.org/schemas/sitemap/0.9">
   
   <url>
+    <loc>https://shanya.world/404.html</loc>
+    
+    <lastmod>2020-08-16T03:52:59.458Z</lastmod>
+    
+  </url>
+  
+  <url>
     <loc>https://shanya.world/archives/506f10d1.html</loc>
     
     <lastmod>2020-08-14T11:59:45.375Z</lastmod>
@@ -229,13 +236,6 @@
     <loc>https://shanya.world/friends/index.html</loc>
     
     <lastmod>2020-04-13T10:44:40.025Z</lastmod>
-    
-  </url>
-  
-  <url>
-    <loc>https://shanya.world/404.html</loc>
-    
-    <lastmod>2020-03-27T03:32:35.691Z</lastmod>
     
   </url>
   
