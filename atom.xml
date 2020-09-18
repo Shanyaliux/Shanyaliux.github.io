@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://shanya.world/"/>
-  <updated>2020-09-13T06:33:48.564Z</updated>
+  <updated>2020-09-18T11:24:07.206Z</updated>
   <id>https://shanya.world/</id>
   
   <author>
@@ -15,6 +15,27 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>ViewPager2使用教程</title>
+    <link href="https://shanya.world/archives/67543f41.html"/>
+    <id>https://shanya.world/archives/67543f41.html</id>
+    <published>2020-09-18T11:00:26.000Z</published>
+    <updated>2020-09-18T11:24:07.206Z</updated>
+    
+    <summary type="html">
+    
+      关于ViewPager2用法的记录
+    
+    </summary>
+    
+    
+      <category term="Android" scheme="https://shanya.world/categories/Android/"/>
+    
+    
+      <category term="Android" scheme="https://shanya.world/tags/Android/"/>
+    
+  </entry>
   
   <entry>
     <title>嵌入式学习之按键输入</title>
@@ -509,31 +530,6 @@
     <summary type="html">
     
       &lt;p&gt;本例是基于AndroidStudio以Kotlin语言开发，实现Android应用中常见的侧边划出栏。&lt;/p&gt;
-    
-    </summary>
-    
-    
-      <category term="Android" scheme="https://shanya.world/categories/Android/"/>
-    
-      <category term="Kotlin" scheme="https://shanya.world/categories/Android/Kotlin/"/>
-    
-    
-      <category term="Android" scheme="https://shanya.world/tags/Android/"/>
-    
-      <category term="Kotlin" scheme="https://shanya.world/tags/Kotlin/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>Android Room By Kotlin</title>
-    <link href="https://shanya.world/archives/e6cb5eee.html"/>
-    <id>https://shanya.world/archives/e6cb5eee.html</id>
-    <published>2020-04-07T08:50:14.000Z</published>
-    <updated>2020-06-25T00:43:37.895Z</updated>
-    
-    <summary type="html">
-    
-      &lt;p&gt;本Demo是演示Room在Kotlin语法下使用的一个简单的应用程序。&lt;/p&gt;
     
     </summary>
     
