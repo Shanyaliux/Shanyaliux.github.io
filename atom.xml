@@ -6,7 +6,7 @@
   <link href="/atom.xml" rel="self"/>
   
   <link href="https://shanya.world/"/>
-  <updated>2020-09-18T11:29:11.389Z</updated>
+  <updated>2020-10-05T10:24:45.481Z</updated>
   <id>https://shanya.world/</id>
   
   <author>
@@ -15,6 +15,48 @@
   </author>
   
   <generator uri="https://hexo.io/">Hexo</generator>
+  
+  <entry>
+    <title>上传版本更新文件至Gitee</title>
+    <link href="https://shanya.world/archives/148f033d.html"/>
+    <id>https://shanya.world/archives/148f033d.html</id>
+    <published>2020-10-05T10:19:25.000Z</published>
+    <updated>2020-10-05T10:24:45.481Z</updated>
+    
+    <summary type="html">
+    
+      上传版本更新文件至Gitee教程
+    
+    </summary>
+    
+    
+      <category term="Gitee" scheme="https://shanya.world/categories/Gitee/"/>
+    
+    
+      <category term="Gitee" scheme="https://shanya.world/tags/Gitee/"/>
+    
+  </entry>
+  
+  <entry>
+    <title>AppUpdateUtil工具类</title>
+    <link href="https://shanya.world/archives/f0324ec7.html"/>
+    <id>https://shanya.world/archives/f0324ec7.html</id>
+    <published>2020-10-05T09:14:43.000Z</published>
+    <updated>2020-10-05T10:26:17.555Z</updated>
+    
+    <summary type="html">
+    
+      一个简单易用的Android APP 版本更新依赖库
+    
+    </summary>
+    
+    
+      <category term="Android" scheme="https://shanya.world/categories/Android/"/>
+    
+    
+      <category term="Android" scheme="https://shanya.world/tags/Android/"/>
+    
+  </entry>
   
   <entry>
     <title>ViewPager2使用教程</title>
@@ -482,54 +524,6 @@
     <summary type="html">
     
       &lt;p&gt;首先例子用的json文件是我和该Demo例子一起上传至GitHub的一个json文件：地址如下&lt;br&gt;&lt;a href=&quot;https://raw.githubusercontent.com/Shanyaliux/VolleyDemo/master/app/jsonfile/volleydemo.json&quot; target=&quot;_blank&quot; rel=&quot;noopener&quot;&gt;https://raw.githubusercontent.com/Shanyaliux/VolleyDemo/master/app/jsonfile/volleydemo.json&lt;/a&gt;&lt;br&gt;其内容我瞎编的&lt;/p&gt;
-    
-    </summary>
-    
-    
-      <category term="Android" scheme="https://shanya.world/categories/Android/"/>
-    
-      <category term="Kotlin" scheme="https://shanya.world/categories/Android/Kotlin/"/>
-    
-    
-      <category term="Android" scheme="https://shanya.world/tags/Android/"/>
-    
-      <category term="Kotlin" scheme="https://shanya.world/tags/Kotlin/"/>
-    
-  </entry>
-  
-  <entry>
-    <title>安装Manjaro之后要做的一些事</title>
-    <link href="https://shanya.world/archives/ec10250d.html"/>
-    <id>https://shanya.world/archives/ec10250d.html</id>
-    <published>2020-04-07T08:50:53.000Z</published>
-    <updated>2020-08-09T02:12:04.916Z</updated>
-    
-    <summary type="html">
-    
-      &lt;blockquote&gt;
-&lt;p&gt;为什么是Manjaro？&lt;br&gt;对我来说只有一点，就是 &lt;strong&gt;aur&lt;/strong&gt; 。&lt;br&gt;本文记录的是我安装完Manjaro之后做的一些事。&lt;/p&gt;
-&lt;/blockquote&gt;
-    
-    </summary>
-    
-    
-      <category term="Manjaro" scheme="https://shanya.world/categories/Manjaro/"/>
-    
-    
-      <category term="Manjaro" scheme="https://shanya.world/tags/Manjaro/"/>
-    
-  </entry>
-  
-  <entry>
-    <title> Android侧边栏Kotlin实现</title>
-    <link href="https://shanya.world/archives/39c4da83.html"/>
-    <id>https://shanya.world/archives/39c4da83.html</id>
-    <published>2020-04-07T08:50:30.000Z</published>
-    <updated>2020-06-25T00:43:08.035Z</updated>
-    
-    <summary type="html">
-    
-      &lt;p&gt;本例是基于AndroidStudio以Kotlin语言开发，实现Android应用中常见的侧边划出栏。&lt;/p&gt;
     
     </summary>
     
