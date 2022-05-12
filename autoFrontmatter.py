@@ -46,7 +46,7 @@ for i in indexList:
             permalink = "".join([choice("0123456789abcdef") for i in range(6)])
             if permalink in permalinks:
                 permalink = "".join([choice("0123456789abcdef") for i in range(6)])
-            frontMatter = "---\ntitle: {title}\ndate: {date}\npermalink: {permalink}\ncategories:\n  - essay\ntags:\n " \
+            frontMatter = "---\ntitle: {title}\ndate: {date}\npermalink: /pages/{permalink}/\ncategories:\n  - essay\ntags:\n " \
                           " - \nauthor: \n  name: Shanya\n  link: https://github.com/shanyaliux\n---\n"\
                 .format(title=title, date=date, permalink=permalink)
             f.seek(0, 0)
