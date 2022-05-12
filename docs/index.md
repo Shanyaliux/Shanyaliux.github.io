@@ -6,6 +6,7 @@ tagline: 山高水长，怕什么来不及，慌什么到不了。
 # actionText: 立刻进入 →
 # actionLink: /web/
 # bannerBg: auto # auto => 网格纹背景(有bodyBgImg时无背景)，默认 | none => 无 | '大图地址' | background: 自定义背景样式       提示：如发现文本颜色不适应你的背景时可以到palette.styl修改$bannerTextColor变量
+bannerBg: https://cdn.jsdelivr.net/gh/Shanyaliux/PicBed/img/nordkette-7022793_1280.jpg
 
 # features: # 可选的
 #   - title: 前端
