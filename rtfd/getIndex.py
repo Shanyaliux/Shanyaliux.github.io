@@ -25,7 +25,7 @@ def getIndex():
         f.write(title)
         f.write(toctree)
         for i in indexList:
-            f.write('   {}\n'.format(i))
+            f.write('   ../{}\n'.format(i))
 
 
 if __name__ == '__main__':
