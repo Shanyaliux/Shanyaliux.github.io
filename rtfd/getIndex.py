@@ -5,7 +5,7 @@ def getIndex():
     title = "Welcome to Shanya's blog!\n================================\n\n"
     toctree = ".. toctree::\n   :maxdepth: 2\n   :caption: Contents\n\n"
 
-    rootPath = "../docs"
+    rootPath = "docs"
     rootList = os.listdir(rootPath)
     indexList = []
     for r in rootList:

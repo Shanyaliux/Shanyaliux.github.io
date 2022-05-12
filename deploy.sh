@@ -6,8 +6,8 @@ set -e
 # deploy to github pages
 echo 'shanyaliux.cn' > CNAME
 
-git add -A
-git commit -m "${msg}"
+git add .
+git commit -m "push"
 git push
 
 # deploy to coding pages
