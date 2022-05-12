@@ -10,7 +10,7 @@ shutil.rmtree(os.path.join(destPath, 'docs'))
 os.mkdir(os.path.join(destPath, 'docs')) 
 indexList = []
 for v in vdoingList:
-    if v == '.vuepress' or v == 'index.md' or  v == '@pages' or v == 'friends.md':
+    if v == '.vuepress' or v == 'index.md' or  v == '@pages' or v == '99.friends.md':
         continue
     vp = os.path.join(vdoingPath, v)
     if os.path.isdir(vp):
