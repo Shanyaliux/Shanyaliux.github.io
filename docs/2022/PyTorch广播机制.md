@@ -1,14 +1,14 @@
 ---
 title: PyTorch广播机制
-date: 2022-05-12 10:15:16
-permalink: /pages/812af4/
+date: 2022-05-12 12:26:17
+permalink: /pages/5fad25/
 categories:
   - 2022
 tags:
   - 
 author: 
-  name: xugaoyi
-  link: https://github.com/xugaoyi
+  name: Shanya
+  link: https://github.com/shanyaliux
 ---
 # PyTorch广播机制
 

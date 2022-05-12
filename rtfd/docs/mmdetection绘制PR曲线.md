@@ -1,15 +1,3 @@
----
-title: mmdetection绘制PR曲线
-date: 2022-05-12 10:15:16
-permalink: /pages/c7087d/
-categories:
-  - 2022
-tags:
-  - 
-author: 
-  name: xugaoyi
-  link: https://github.com/xugaoyi
----
 # mmdetection 绘制PR曲线
 
 参考：https://github.com/xuhuasheng/mmdetection_plot_pr_curve

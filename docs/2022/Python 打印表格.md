@@ -1,14 +1,14 @@
 ---
 title: Python 打印表格
-date: 2022-05-12 10:15:16
-permalink: /pages/4d8879/
+date: 2022-05-12 12:26:17
+permalink: /pages/d48fe0/
 categories:
   - 2022
 tags:
   - 
 author: 
-  name: xugaoyi
-  link: https://github.com/xugaoyi
+  name: Shanya
+  link: https://github.com/shanyaliux
 ---
 # Python 打印表格
 

@@ -1,14 +1,14 @@
 ---
 title: VOC数据集可视化
-date: 2022-05-12 10:15:16
-permalink: /pages/cc3449/
+date: 2022-05-12 12:26:17
+permalink: /pages/a20a6b/
 categories:
   - 2022
 tags:
   - 
 author: 
-  name: xugaoyi
-  link: https://github.com/xugaoyi
+  name: Shanya
+  link: https://github.com/shanyaliux
 ---
 # VOC数据集可视化
 

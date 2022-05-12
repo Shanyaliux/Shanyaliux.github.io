@@ -1,14 +1,14 @@
 ---
 title: 获取最高map的epoch
-date: 2022-05-12 10:15:16
-permalink: /pages/33c596/
+date: 2022-05-12 12:26:17
+permalink: /pages/56e3ca/
 categories:
   - 2022
 tags:
   - 
 author: 
-  name: xugaoyi
-  link: https://github.com/xugaoyi
+  name: Shanya
+  link: https://github.com/shanyaliux
 ---
 # mmdetection 获取最高map的epoch
 

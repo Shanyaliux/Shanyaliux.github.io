@@ -1,14 +1,14 @@
 ---
 title: shell脚本
-date: 2022-05-12 10:15:16
-permalink: /pages/790b2f/
+date: 2022-05-12 12:26:17
+permalink: /pages/b18e1d/
 categories:
   - 2022
 tags:
   - 
 author: 
-  name: xugaoyi
-  link: https://github.com/xugaoyi
+  name: Shanya
+  link: https://github.com/shanyaliux
 ---
 # 常用的shell脚本
 
