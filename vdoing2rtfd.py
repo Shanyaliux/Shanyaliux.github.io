@@ -1,4 +1,5 @@
 import os
+from re import L
 import shutil
 
 
@@ -21,4 +22,17 @@ for v in vdoingList:
 
 for i in indexList:
     file = i.split(os.sep)[-1]
-    shutil.copy(i, os.path.join('./rtfd/docs', file))
+    destFile = os.path.join('./rtfd/docs', file)
+    shutil.copy(i, destFile)
+    file_data = ""
+    with open(destFile, 'r', encoding="utf-8") as f:
+        for line in f:
+            file_data += line
+        startIndex = file_data.find('---')
+        if file_data[startIndex + 4: startIndex + 9] == 'title':
+            file_data = file_data[3:]
+            endIndex = file_data.find('---')
+            file_data = file_data[endIndex+4:]
+    with open(destFile, "w", encoding="utf-8") as f:
+        f.write(file_data)
+    
