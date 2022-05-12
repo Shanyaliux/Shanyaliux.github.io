@@ -3,28 +3,13 @@
 # 确保脚本抛出遇到的错误
 set -e
 
-# 生成静态文件
-npm run build
-
-# 进入生成的文件夹
-cd docs/.vuepress/dist
-
 # deploy to github pages
 echo 'shanyaliux.cn' > CNAME
 
-if [ -z "$ACCESS_TOKEN" ]; then
-  msg='deploy'
-  githubUrl=git@github.com:Shanyaliux/Shanyaliux.github.io.git
-else
-  msg='来自github actions的自动部署'
-  githubUrl=https://Shanyaliux:${ACCESS_TOKEN}@github.com/Shanyaliux/Shanyaliux.github.io.git
-  git config --global user.name "xugaoyi"
-  git config --global user.email "894072666@qq.com"
-fi
 git init
 git add -A
 git commit -m "${msg}"
-git push -f $githubUrl master:gh-pages # 推送到github gh-pages分支
+git push
 
 # deploy to coding pages
 # echo 'www.xugaoyi.com\nxugaoyi.com' > CNAME  # 自定义域名
@@ -38,6 +23,3 @@ git push -f $githubUrl master:gh-pages # 推送到github gh-pages分支
 # git add -A
 # git commit -m "${msg}"
 # git push -f $codingUrl master # 推送到coding
-
-cd -
-rm -rf docs/.vuepress/dist
