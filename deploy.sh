@@ -6,6 +6,7 @@ set -e
 # deploy to github pages
 echo 'shanyaliux.cn' > CNAME
 
+python autoFrontmatter.py
 python vdoing2rtfd.py
 
 git add .
