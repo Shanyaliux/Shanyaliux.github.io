@@ -21,11 +21,11 @@ def getIndex():
             indexList.append(rp)
 
     indexList = sorted(indexList, key=lambda x: os.path.getmtime(x), reverse=True)
-    with open('./index.rst', 'w', encoding="utf-8") as f:
+    with open('./rtfd/index.rst', 'w', encoding="utf-8") as f:
         f.write(title)
         f.write(toctree)
         for i in indexList:
-            f.write('   {}\n'.format(i))
+            f.write('   ../{}\n'.format(i))
 
 
 if __name__ == '__main__':
