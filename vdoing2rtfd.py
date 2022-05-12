@@ -4,9 +4,10 @@ import shutil
 
 
 vdoingPath = r'docs'
-destPath = r'rt'
+destPath = r'rtfd'
 vdoingList = os.listdir(vdoingPath)
-
+shutil.rmtree(os.path.join(destPath, 'docs'))  
+os.mkdir(os.path.join(destPath, 'docs')) 
 indexList = []
 for v in vdoingList:
     if v == '.vuepress' or v == 'index.md' or  v == '@pages':
