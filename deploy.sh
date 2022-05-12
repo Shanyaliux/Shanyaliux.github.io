@@ -6,7 +6,7 @@ set -e
 # deploy to github pages
 echo 'shanyaliux.cn' > CNAME
 
-python ./rtfd/getIndex.py 
+python vdoing2rtfd.py
 
 git add .
 git commit -m "push"

@@ -9,8 +9,6 @@ def getIndex():
     rootList = os.listdir(rootPath)
     indexList = []
     for r in rootList:
-        if r == '.vuepress' or r == 'index.md' or r == '@pages':
-            continue
         rp = os.path.join(rootPath, r)
         if os.path.isdir(rp):
             tl = os.listdir(rp)
@@ -21,11 +19,11 @@ def getIndex():
             indexList.append(rp)
 
     indexList = sorted(indexList, key=lambda x: os.path.getmtime(x), reverse=True)
-    with open('./rtfd/index.rst', 'w', encoding="utf-8") as f:
+    with open('./index.rst', 'w', encoding="utf-8") as f:
         f.write(title)
         f.write(toctree)
         for i in indexList:
-            f.write('   ../{}\n'.format(i))
+            f.write('   {}\n'.format(i))
 
 
 if __name__ == '__main__':
