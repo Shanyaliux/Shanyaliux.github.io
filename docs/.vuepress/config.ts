@@ -85,7 +85,7 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
 
     // 博主信息 (显示在首页侧边栏)
     blogger: {
-      avatar: 'https://cdn.jsdelivr.net/gh/Shanyaliux/PicBed/img/dog-g0f42c2a10_640 (1).jpg',
+      avatar: '/img/avatar.png',
       name: '山高水长',
       // slogan: '山高水长，怕什么来不及，慌什么到不了。',
     },
