@@ -22,7 +22,7 @@ for v in vdoingList:
 permalinks = []
 for i in indexList:
     file_data = ""
-    with open(i, 'r', encoding="utf-8") as f:
+    with open(i, 'r', encoding="utf-8", errors='ignore') as f:
         for line in f:
             file_data += line
         startIndex = file_data.find('---')
