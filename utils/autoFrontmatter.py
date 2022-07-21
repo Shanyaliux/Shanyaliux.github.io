@@ -36,7 +36,7 @@ for i in indexList:
 for i in indexList:
     file = i.split(os.sep)[-1]
     file_data = ''
-    with open(i, 'r+', encoding='gb18030', errors='ignore') as f:
+    with open(i, 'r+', encoding='utf-8', errors='ignore') as f:
         for line in f:
             file_data += line
         startIndex = file_data.find('---')
