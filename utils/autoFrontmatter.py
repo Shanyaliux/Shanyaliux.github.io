@@ -4,7 +4,7 @@ from random import *
 import time
 
 
-vdoingPath = r'docs'
+vdoingPath = r'./docs'
 vdoingList = os.listdir(vdoingPath)
 indexList = []
 for v in vdoingList:
