@@ -29,7 +29,7 @@ def isNumber(s):
 
 # 生成一个新的permalink
 def getNewPermalink():
-    return hex(random.randint(1118481, 16777215))
+    return hex(random.randint(1118481, 16777215))[2:]
 
 
 # 得到所有的已有的permalink
@@ -50,9 +50,10 @@ def getExistsPermalinks(docsList):
             for i in result:
                 positions.append(i.span())
 
-            if len(positions) < 2:
+            temp = content[positions[0][1] + 1: positions[0][1] + 6]
+            if temp != 'title':
                 continue
-
+        
             frontMatter = content[positions[0][1]: positions[1][0]]
             permalinkSpan = re.search(r'permalink', frontMatter).span()
             categoriesSpan = re.search(r'categories', frontMatter).span()
@@ -93,8 +94,6 @@ if __name__=="__main__":
         if not isNumber(fileName.split('.')[0]) or fileName.split('.')[1] == 'friends':
             continue
 
-        print(doc)
-
         with open(doc, 'r+', encoding="utf-8", errors='ignore') as f:
 
             content = f.read()
@@ -104,9 +103,9 @@ if __name__=="__main__":
             for i in result:
                 positions.append(i.span())
 
-            print(positions)
+            temp = content[positions[0][1] + 1: positions[0][1] + 6]
 
-            if len(positions) < 2:
+            if temp != 'title':
 
                 print(doc)
 
