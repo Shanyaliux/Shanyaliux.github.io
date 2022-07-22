@@ -104,6 +104,8 @@ if __name__=="__main__":
             for i in result:
                 positions.append(i.span())
 
+            print(positions)
+
             if len(positions) < 2:
 
                 print(doc)
