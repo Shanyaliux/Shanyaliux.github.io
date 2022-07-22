@@ -93,6 +93,8 @@ if __name__=="__main__":
         if not isNumber(fileName.split('.')[0]) or fileName.split('.')[1] == 'friends':
             continue
 
+        print(doc)
+
         with open(doc, 'r+', encoding="utf-8", errors='ignore') as f:
 
             content = f.read()
