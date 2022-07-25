@@ -1,5 +1,4 @@
 
-# deploy to github pages
 echo 'shanyaliux.cn' > CNAME
 
 python utils/autoFrontmatter.py
