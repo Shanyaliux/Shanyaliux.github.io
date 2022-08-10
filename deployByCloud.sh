@@ -1,5 +1,5 @@
 #!/usr/bin/env sh
 
-chattr -i docs/.vuepress/dist/.user.ini
 yarn install
 yarn build
+cp -r /www/wwwroot/Shanyaliux.github.io/docs/.vuepress/dist/* /www/wwwroot/blog/
