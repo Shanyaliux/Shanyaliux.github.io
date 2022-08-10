@@ -3,3 +3,4 @@
 yarn install
 yarn build
 cp -r /www/wwwroot/Shanyaliux.github.io/docs/.vuepress/dist/* /www/wwwroot/blog/
+echo "deploy finished."
