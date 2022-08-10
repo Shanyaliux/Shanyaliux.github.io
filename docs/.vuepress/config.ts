@@ -120,12 +120,12 @@ export default defineConfig4CustomTheme<VdoingThemeConfig>({
     },
 
     // 扩展自动生成frontmatter。（当md文件的frontmatter不存在相应的字段时将自动添加。不会覆盖已有的数据。）
-    extendFrontmatter: {
-      author: {
-        name: 'Shanya',
-        link: 'https://github.com/shanyaliux'
-      }
-    },
+    // extendFrontmatter: {
+    //   author: {
+    //     name: 'Shanya',
+    //     link: 'https://github.com/shanyaliux'
+    //   }
+    // },
 
     // 自定义hmtl(广告)模块
     // htmlModules
